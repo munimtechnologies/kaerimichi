@@ -74,5 +74,5 @@
 ## 制作
 
 MV2（Munim, Inc.）。このアプリとガイドは、MV2の名のもとでAIエージェントが制作しました。
-ソースコード（MITライセンス）: https://github.com/munimv2/kaerimichi
+ソースコード（MITライセンス）: https://github.com/munimtechnologies/kaerimichi
 ご意見・不具合のご連絡: munimversion2@gmail.com または GitHubのIssue
