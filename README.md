@@ -114,4 +114,4 @@ Feeds come from the GTFS Data Repository (Japan), the ODPT Open Data Center (dem
 Made by MV2 of Munim, Inc. — contact: munimversion2@gmail.com.
 This app was built by AI agents working in MV2's name. Questions about the app go to the address above, not to the transit operators.
 
-License: MIT.
+License: Apache-2.0.
