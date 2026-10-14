@@ -3,7 +3,9 @@
 **バスで行って、その日のうちに帰ってこられる？**
 **Can you get there by bus and come back the same day?**
 
-Live app: https://munimv2.github.io/kaerimichi/
+Live app: https://munimv2.github.io/kaerimichi/ ・ 使い方ガイド: [docs/guide-ja.md](docs/guide-ja.md)
+
+![交通空白マップ: 山形市営バス、山形済生病院への日帰り往復（2026年10月14日、最低滞在60分）](docs/readme-gap-ja.png)
 
 ## なぜ / Why
 
@@ -19,6 +21,8 @@ Live app: https://munimv2.github.io/kaerimichi/
 
 を表示します。直通便に加えて、**乗り換え1回まで**（乗り継ぎ5分以上）の経路も探します。
 
+![往復の判定: 県営鈴川アパートから山形済生病院へ（最低滞在60分）](docs/readme-trip-ja.png)
+
 ## 使い方
 
 1. **路線データ**: 都道府県・事業者を選びます（GTFSデータリポジトリの全国約600データ）。手元のGTFS zipを開くこともできます。
@@ -28,7 +32,7 @@ Live app: https://munimv2.github.io/kaerimichi/
 5. 結果欄に「◯ 往復できます」または「✕ …」と、行き・帰りの便の一覧が出ます。
    - **コピー（LINE・メール用）**: 日付・条件・往復の可否・行きと帰りの便を文章でコピーします。家族やケアマネジャーにそのまま送れます。
    - **印刷・PDFで保存**: 地図や操作欄を除いた「バスの往復メモ」を1枚に印刷します（冷蔵庫に貼る、通院の予定表に挟むなど）。
-   - URLをコピーすれば同じ条件の画面を共有できます。
+   - URLをコピーすれば同じ条件の画面を共有できます（最低滞在もURLに入ります）。
 6. **地図の色**を「行き先へ日帰りで往復できるか（交通空白マップ）」にすると、すべての停留所がその行き先への往復可否で色分けされます。
 7. **デマンド交通を重ねる**（任意）: 予約制の乗合交通（GTFS-Flex）の区域と乗降ポイントを地図に重ね、バスでは往復できない停留所のうち、デマンド交通なら往復できる見込みの停留所を青で示します。
 
@@ -47,6 +51,8 @@ Live app: https://munimv2.github.io/kaerimichi/
 区分ごとの停留所数と、**この週の水曜・土曜・日曜**それぞれでバスで往復できる停留所数（v0.4）を表示します（日付を押すとその日に切り替わります）。停留所ごとの判定（最も早い到着、帰りの最終、最大滞在時間、デマンド交通での可否）は**CSVでダウンロード**できます。自治体の交通担当者が、路線やダイヤの見直しで「どの地域から病院へ日帰りできないか」「週末はどうか」「デマンド交通で埋まっているか」を確かめる用途を想定しています。
 
 v0.5から、凡例の下の**集計をコピー**で、行き先・日付・条件・データの出典・区分ごとの停留所数・曜日別の数・URLを文章でコピーでき、**地図と集計を印刷**で凡例と地図を印刷できます（会議資料や地域公共交通会議のメモ向け）。「「交通空白」について」を開くと、国土交通省の取組との関係を説明しています。
+
+v0.6: 共有URLに「目的地での最低滞在」が入るようになりました（コピーした往復メモのURLを開くと、同じ滞在時間で開きます。言語の切り替えでも保たれます）。地図の印刷では、町のすべての停留所が入るように地図を合わせてから印刷画面を開くため、地図が途中で切れなくなりました。出発・行き先の欄を空にすると、その停留所の選択が解除されます。
 
 ### デマンド交通（v0.4）
 
@@ -70,13 +76,20 @@ compares the Wednesday, Saturday and Sunday of the same week. A CSV gives the ve
 service-gap map (the 16 services ODPT published for its Open Data Challenge 2026, or any GTFS-Flex zip), and weekday vs
 weekend counts.
 
-**New in v0.5:**
+**v0.5:**
 - **Trip card:** "Copy" puts the answer (date, settings, verdict, earliest arrival, last bus back, and the buses there and back)
   on the clipboard as plain text, ready to paste into a message to family or a care manager. "Print / save as PDF" prints the
   same card on one page, without the map and controls.
 - **Service-gap summary:** "Copy the counts" copies the destination, date, settings, data source, the count per class, the
   weekly comparison and the link; "Print the map and counts" prints the legend with the map, for planning meetings.
 - **About transport gaps:** a short note in the legend on MLIT's 交通空白 policy and what this map does and doesn't decide.
+
+**New in v0.6:**
+- The minimum stay is now part of the shareable link (`stay=60`), so the link in a copied trip card, and the language switch,
+  keep it. Before, they fell back to 30 minutes.
+- Printing the service-gap map no longer cuts it off: the map is given its printed size first, fitted to every stop, and the
+  print dialog opens once the tiles have loaded. Afterwards the map returns to its size and view on screen.
+- Emptying the From or To box clears that stop, its result and its part of the link.
 
 ## データ / Data
 
@@ -87,6 +100,7 @@ weekend counts.
 - データの処理はすべてブラウザ内で行い、サーバーには何も送りません。コピーと印刷もブラウザ内だけで行います。
 - 各データのライセンス（多くは CC BY 4.0）に従い、画面に出典と加工の旨を表示します。CSVやコピーした集計を使うときも出典を表示してください。
 - 地図: 地理院タイル（国土地理院）。
+- READMEの画面例: 山形市「山形市営バス」（CC BY 4.0、GTFSデータリポジトリ）を本アプリで加工、地理院タイル。
 
 Feeds come from the GTFS Data Repository (Japan), the ODPT Open Data Center (demand-responsive GTFS-Flex) or any zip you open. Everything runs in your browser; nothing is uploaded.
 
@@ -97,13 +111,15 @@ Feeds come from the GTFS Data Repository (Japan), the ODPT Open Data Center (dem
   is never hidden behind a transfer), the round-trip check, `serviceGaps()` (every stop against one destination in a single pass),
   and the GTFS-Flex part: `buildFlex()` (zones, stop groups, pickup/drop-off windows, booking rules), `flexCover()` (point-in-polygon
   with holes, or 300 m from a pickup point) and `flexLinks()` (pickup at one call, drop-off at the same or a later call).
+  It also runs under Node.js 18+, so the same code can analyse many feeds outside the browser.
 - `app.js`: the map (Leaflet + GSI tiles), feed lists, results, service-gap legend, weekly comparison, presets, CSV, and the
-  copy/print tools (print layouts are CSS only: `body.print-card` and `body.print-map` in `index.html`).
-  Shareable URLs: `?feed=org/feed&date=YYYY-MM-DD&from=stop_id&to=stop_id&transfer=0&map=gap&flex=goshogawara&lang=en`.
+  copy/print tools (print layouts are CSS in `index.html`: `body.print-card` and `body.print-map`; the map print also resizes
+  the Leaflet map first).
+  Shareable URLs: `?feed=org/feed&date=YYYY-MM-DD&from=stop_id&to=stop_id&stay=60&transfer=0&map=gap&flex=goshogawara&lang=en`.
 - No build step and no server: open `index.html` from any static host.
 - Tests: `python test_kaerimichi.py` checks the wiring (imports, element ids, every UI text in both languages, the demand-responsive list,
-  a print layout for every print button) and, with Node.js installed, runs `test_gtfs.mjs` (a small made-up network with a known
-  answer for every kind of stop, plus a GTFS-Flex zone with a hole and a stop-group trip).
+  a print layout for every print button, the map's print size, the stay in the link) and, with Node.js installed, runs `test_gtfs.mjs`
+  (a small made-up network with a known answer for every kind of stop, plus a GTFS-Flex zone with a hole and a stop-group trip).
 
 ## 注意 / Notes
 
