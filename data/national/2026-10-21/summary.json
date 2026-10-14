@@ -1,0 +1,55 @@
+{
+  "title": "Same-day hospital round trips by bus, from every stop in Japan's open GTFS feeds",
+  "date": "2026-10-21",
+  "saturday": "2026-10-24",
+  "settings": {
+    "transfers": 1,
+    "min_connection_s": 300,
+    "min_stay_s": 1800,
+    "hubs_per_feed": 3
+  },
+  "hospital_stop_names": "病院|医院|クリニック|診療所|医療センター",
+  "feed_list": "https://api.gtfs-data.jp/v2/feeds",
+  "feeds_listed": 607,
+  "feeds_analysed": 394,
+  "skipped_by_reason": {
+    "no_service": 35,
+    "no_hospital_stop": 118,
+    "discontinued": 28,
+    "error": 2,
+    "ended": 27,
+    "flex_only": 1,
+    "download_failed": 2
+  },
+  "national": {
+    "places_with_departures": 53554,
+    "round_trip": 45007,
+    "share": 0.84,
+    "round_trip_sat": 33881,
+    "share_sat": 0.633,
+    "status_totals": {
+      "hub": 868,
+      "ok": 29252,
+      "okx": 15755,
+      "noreturn": 1255,
+      "oneway": 1020,
+      "none": 6272,
+      "idle": 3343
+    }
+  },
+  "feeds": {
+    "median_share": 0.986,
+    "share_below_half": 23,
+    "share_zero": 3,
+    "round_trip_weekday_but_not_saturday": 97,
+    "no_saturday_service": 78
+  },
+  "gtfs_js": {
+    "source": "gtfs.js",
+    "sha256": "8c84ed8f0034e0cfb5f5e11dbbeb66cb6d6d27299d82abb09728472906ac13a5",
+    "commit": "main"
+  },
+  "generated_at": "2026-10-14T16:10:13.318Z",
+  "runtime_s": 2318,
+  "by": "MV2 of Munim, Inc. (made with AI agents working in MV2's name)"
+}

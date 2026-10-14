@@ -1,0 +1,991 @@
+﻿organization_id,feed_id,stop_key,stop_name,lat,lon,status,status_sat,hub_name,arrive,last_back,max_stay_min
+inzaicity,rosenbus,1_0,印西牧の原駅南口,35.802557,140.166412,ok,ok,日本医大千葉北総病院,6:13,18:51,758
+inzaicity,rosenbus,2_1,原東街区公園前,35.798825,140.168390,ok,ok,日本医大千葉北総病院,6:13,18:51,758
+inzaicity,rosenbus,3_1,東の原公園前,35.797794,140.172201,ok,ok,日本医大千葉北総病院,6:13,18:51,758
+inzaicity,rosenbus,4_1,東の原一丁目,35.797088,140.177356,ok,ok,日本医大千葉北総病院,6:13,18:51,758
+inzaicity,rosenbus,5_1,角田入口,35.786981,140.201066,ok,ok,日本医大千葉北総病院,6:13,17:51,698
+inzaicity,rosenbus,6_0,印旛日本医大駅,35.787700,140.203870,ok,ok,日本医大千葉北総病院,6:13,20:20,847
+inzaicity,rosenbus,7_1,ウェルガーデン,35.782810,140.203662,ok,ok,日本医大千葉北総病院,6:13,20:20,847
+inzaicity,rosenbus,8_0,日本医大千葉北総病院,35.781383,140.199054,hub,hub,日本医大千葉北総病院,,,
+inzaicity,rosenbus,9_1,印旛支所,35.779370,140.205006,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,10_1,消防署前,35.779426,140.202208,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,11_1,鎌苅,35.774232,140.190771,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,12_1,古谷坂下,35.773589,140.184764,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,13_0,印旛晴山苑前,35.778260,140.178020,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,14_1,大廻新道,35.774100,140.174675,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,15_1,宮下,35.766230,140.169980,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,16_1,中里,35.763079,140.170462,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,17_0,吉田宮前,35.764635,140.154439,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,18_1,西方入口,35.763068,140.164545,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,19_1,岩戸,35.760609,140.167528,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,20_1,印西西佐倉病院入口,35.756641,140.169151,hub,hub,印西西佐倉病院入口,,,
+inzaicity,rosenbus,21_1,三軒屋,35.753271,140.177324,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,22_1,師戸,35.752769,140.180542,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,23_0,京成臼井駅北口,35.730092,140.180531,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,27_1,造谷橋,35.792556,140.176400,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,28_1,大成交通前,35.787969,140.176395,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,29_1,大廻道,35.784810,140.175258,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,30_1,並木,35.775987,140.174239,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,31_1,鎌苅南,35.772154,140.187881,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,32_1,師戸北,35.763442,140.184806,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,33_1,師戸改善センター前,35.760480,140.184163,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,34_1,宗像神社前,35.757433,140.183605,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,35_1,印旛沼公園入口,35.752679,140.181094,ok,ok,日本医大千葉北総病院,7:14,18:51,697
+inzaicity,rosenbus,36_0,京成佐倉駅,35.725657,140.229424,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,37_1,宮前2丁目,35.734058,140.229456,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,38_1,岩名飯田入口,35.738505,140.230401,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,39_1,岩名運動公園,35.741592,140.227534,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,40_1,白翠園,35.739050,140.219673,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,41_1,山田川岸,35.762484,140.227115,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,42_1,山田西口,35.771838,140.230034,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,43_1,瀬戸,35.775606,140.224984,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,44_1,印旛郵便局,35.776974,140.220466,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,45_1,雁又,35.778770,140.215880,ok,ok,日本医大千葉北総病院,7:11,19:41,750
+inzaicity,rosenbus,46_1,印旛公民館,35.779673,140.220877,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+inzaicity,rosenbus,47_1,教習所前,35.782971,140.223253,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+inzaicity,rosenbus,48_1,吉高台,35.789273,140.225270,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+inzaicity,rosenbus,49_1,吉高一本松,35.792120,140.225832,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+inzaicity,rosenbus,50_1,境田,35.795713,140.222371,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+inzaicity,rosenbus,51_1,萩原新田,35.803335,140.217398,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+inzaicity,rosenbus,52_1,飛里橋,35.805312,140.207909,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+inzaicity,rosenbus,53_1,本埜郵便局,35.810586,140.203380,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+inzaicity,rosenbus,54_1,本埜支所,35.816608,140.201801,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+inzaicity,rosenbus,55_1,城山公園,35.824259,140.194924,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+inzaicity,rosenbus,56_0,小林駅,35.830540,140.193776,ok,ok,日本医大千葉北総病院,7:11,17:51,640
+katoricity,katori-junkan,32_0,香取神宮,35.883665,140.524605,okx,okx,県立佐原病院,10:30,15:30,300
+katoricity,katori-junkan,33_0,水の郷さわら,35.896090,140.506071,okx,okx,県立佐原病院,10:30,15:30,300
+katoricity,katori-junkan,34_1,水郷佐原山車会館,35.889215,140.501643,ok,ok,県立佐原病院,8:29,17:33,544
+katoricity,katori-junkan,35_1,忠敬橋,35.889155,140.497546,ok,ok,県立佐原病院,8:29,17:33,544
+katoricity,katori-junkan,36_1,東関戸,35.891705,140.495272,okx,okx,県立佐原病院,14:25,17:33,188
+katoricity,katori-junkan,37_2,佐原駅,35.894591,140.493287,ok,ok,県立佐原病院,7:40,17:33,593
+katoricity,katori-junkan,38_2,諏訪神社,35.891032,140.491732,okx,okx,県立佐原病院,8:29,13:15,286
+katoricity,katori-junkan,39_1,牧野,35.884023,140.502007,ok,okx,県立佐原病院,7:40,16:45,545
+katoricity,katori-junkan,40_0,県立佐原病院,35.886056,140.509751,hub,hub,県立佐原病院,,,
+katoricity,katori-junkan,41_0,香取市役所,35.897607,140.499446,ok,idle,県立佐原病院,7:40,16:45,545
+katoricity,katori-junkan,42_1,寺宿,35.887933,140.502884,ok,idle,県立佐原病院,7:40,16:45,545
+katoricity,katori-junkan,45_1,佐原郵便局入口,35.899316,140.490809,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,46_1,岩ケ崎東,35.897210,140.487362,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,47_1,岩ケ崎稲荷神社,35.899636,140.482767,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,72_1,横利根閘門公園,35.911768,140.495186,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,73_1,荒川公会堂,35.918476,140.493405,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,74_1,笄島南,35.926682,140.491024,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,75_1,笄島中央,35.927485,140.492198,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,76_1,笄島北,35.929840,140.495052,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,77_2,長島消防機庫,35.926756,140.501141,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,78_2,長島第２,35.930292,140.504596,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,79_1,八筋川消防機庫,35.938892,140.502107,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,80_1,八筋川中央,35.943218,140.504537,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,81_1,八筋川北,35.945658,140.505905,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,82_1,本津,35.947439,140.508871,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,83_2,大島,35.949905,140.510926,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,84_2,三島,35.950939,140.514354,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,85_2,境島公民館,35.949919,140.518806,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,86_2,境島東,35.946423,140.526080,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,87_2,大割公民館,35.938366,140.529658,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,88_2,扇島第１,35.932576,140.532700,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,89_2,扇島,35.930344,140.534808,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,90_2,与田浦,35.927433,140.532292,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,91_2,中洲橋,35.924479,140.525817,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,93_2,中洲,35.922055,140.523983,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,94_2,篠原新田下組,35.913627,140.516939,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,95_1,篠原新田上組,35.904612,140.514155,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,96_1,向津,35.905176,140.508007,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,97_1,砂場水神,35.907101,140.503979,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,98_1,砂場,35.910256,140.497895,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,99_0,小見川駅,35.850113,140.605130,ok,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,100_1,小見川支所,35.847083,140.603612,okx,idle,おみがわ医療センター,8:25,14:24,359
+katoricity,katori-junkan,101_0,おみがわ医療センター,35.843400,140.600823,hub,hub,おみがわ医療センター,,,
+katoricity,katori-junkan,102_2,南原地,35.841912,140.599138,okx,idle,おみがわ医療センター,9:30,15:34,364
+katoricity,katori-junkan,112_0,山田支所,35.803048,140.575272,oneway,idle,おみがわ医療センター,,,
+katoricity,katori-junkan,135_1,北谷,35.817335,140.596225,oneway,idle,おみがわ医療センター,,,
+katoricity,katori-junkan,136_1,竹之内,35.825999,140.593677,oneway,idle,おみがわ医療センター,,,
+katoricity,katori-junkan,137_1,小見,35.827669,140.593565,oneway,idle,おみがわ医療センター,,,
+katoricity,katori-junkan,138_1,JAかとり前,35.831023,140.595136,oneway,idle,おみがわ医療センター,,,
+katoricity,katori-junkan,142_1,新田橋,35.852362,140.603081,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,143_1,野田青年館,35.855089,140.597789,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,144_1,小見川中学校下,35.856200,140.592041,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,148_1,下小川入口,35.847278,140.590931,okx,idle,おみがわ医療センター,9:30,15:34,364
+katoricity,katori-junkan,149_1,カインズ前,35.853009,140.588232,okx,idle,おみがわ医療センター,9:30,15:34,364
+katoricity,katori-junkan,170_2,大割,35.940455,140.528526,oneway,idle,県立佐原病院,,,
+katoricity,katori-junkan,174_1,北２丁目,35.897689,140.492727,okx,idle,県立佐原病院,10:30,15:30,300
+katoricity,katori-junkan,175_1,佐原高校前,35.888779,140.505921,ok,idle,県立佐原病院,8:29,17:33,544
+katoricity,katori-junkan,177_1,小見川高校,35.858796,140.591599,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,203_2,田部仲新田,35.812774,140.595405,oneway,idle,おみがわ医療センター,,,
+katoricity,katori-junkan,204_1,橘ふれあい公園,35.810459,140.587326,oneway,idle,おみがわ医療センター,,,
+katoricity,katori-junkan,219_0,佐原駅北口,35.895608,140.493738,okx,idle,県立佐原病院,10:30,15:30,300
+katoricity,katori-junkan,221_1,野田,35.851557,140.594319,okx,idle,おみがわ医療センター,9:30,15:34,364
+katoricity,katori-junkan,222_1,丸昇前,35.851155,140.598006,okx,idle,おみがわ医療センター,9:30,15:34,364
+katoricity,katori-junkan,223_1,水の郷さわら（臨時）,35.894713,140.505912,idle,idle,,,,
+katoricity,katori-junkan,225_0,佐原駅北口（臨時）,35.895612,140.493781,idle,idle,,,,
+katoricity,katori-junkan,226_1,さくら館入口,35.853930,140.600570,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,227_1,稲生大神入口,35.855840,140.594305,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,228_1,下小堀,35.864487,140.596547,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,229_1,分郷,35.861798,140.598263,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,230_1,八日市場,35.859414,140.600213,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,231_1,中央大橋,35.854892,140.605649,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,232_1,大根塚,35.852150,140.608952,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,233_1,千葉銀行小見川支店前,35.854053,140.603861,okx,idle,おみがわ医療センター,9:30,14:24,294
+katoricity,katori-junkan,234_1,小見川海洋センター前,35.855418,140.613120,okx,idle,おみがわ医療センター,9:30,14:24,294
+katoricity,katori-junkan,235_1,小見川団地東,35.857427,140.615521,okx,idle,おみがわ医療センター,9:30,14:24,294
+katoricity,katori-junkan,236_1,小見川団地北,35.859822,140.614572,okx,idle,おみがわ医療センター,9:30,14:24,294
+katoricity,katori-junkan,237_2,くろべ運動公園前,35.858167,140.611255,okx,idle,おみがわ医療センター,9:30,14:24,294
+katoricity,katori-junkan,238_1,新町通り,35.854818,140.607433,okx,idle,おみがわ医療センター,9:30,14:24,294
+katoricity,katori-junkan,239_1,南八軒町,35.850964,140.608431,okx,idle,おみがわ医療センター,8:25,15:34,429
+katoricity,katori-junkan,240_1,東大根塚,35.849949,140.611861,okx,idle,おみがわ医療センター,9:30,14:24,294
+katoricity,katori-junkan,241_1,小見川東,35.848602,140.616368,okx,idle,おみがわ医療センター,9:30,14:24,294
+katoricity,katori-junkan,242_1,阿玉川,35.847335,140.622913,okx,idle,おみがわ医療センター,9:30,14:24,294
+katoricity,katori-junkan,243_2,谷中踏切前,35.845881,140.626152,okx,idle,おみがわ医療センター,9:30,14:24,294
+katoricity,katori-junkan,244_1,粉名口,35.898352,140.496757,okx,idle,県立佐原病院,10:30,15:30,300
+katoricity,katori-junkan,245_1,篠原西,35.892240,140.512497,okx,idle,県立佐原病院,10:30,15:30,300
+katoricity,katori-junkan,246_1,篠原東,35.894157,140.516701,okx,idle,県立佐原病院,10:30,15:30,300
+katoricity,katori-junkan,247_1,香取駅入口,35.890000,140.526768,okx,idle,県立佐原病院,10:30,15:30,300
+katoricity,katori-junkan,248_1,白楊高校前,35.895190,140.490198,okx,idle,県立佐原病院,10:30,15:30,300
+katoricity,katori-junkan,249_1,佐原自動車教習所前,35.901183,140.491847,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,250_1,粉名口団地入口,35.900355,140.496345,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,251_1,コミュニティセンター裏,35.894254,140.496587,ok,idle,県立佐原病院,7:40,16:45,545
+katoricity,katori-junkan,252_1,観福寺前,35.881104,140.497460,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,253_1,高野,35.880831,140.492041,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,254_1,橋替,35.881537,140.488484,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,255_1,橋替団地,35.883467,140.484294,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,256_1,山之辺,35.882745,140.479502,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,257_1,玉造２丁目,35.889797,140.483213,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,258_1,玉造北公園前,35.893568,140.483950,okx,idle,県立佐原病院,9:35,16:45,430
+katoricity,katori-junkan,CP1_0,CP1,35.898567,140.492982,idle,idle,,,,
+keisei-transitbus,keiseitransitbus,1 1,本八幡駅南口,35.719216,139.925990,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,10 1,下新宿,35.698670,139.920871,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,100 1,広尾防災公園,35.679378,139.889425,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,101 1,広尾・相之川,35.679902,139.891267,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,102 1,新井・相之川,35.678249,139.894622,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,103 1,相之川２丁目,35.677844,139.896828,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,104 1,南行徳公民館,35.678930,139.899256,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,105 1,欠真間２丁目,35.677262,139.901364,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,106 1,南行徳公園,35.675954,139.901682,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,107 1,相之川４丁目,35.674521,139.899712,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,108 1,南行徳駅・南行徳市民ｾﾝﾀｰ入口,35.671425,139.901072,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,109 1,まんせい公園,35.669548,139.904965,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,11 1,行徳一丁目,35.694678,139.918642,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,110 1,南行徳１丁目,35.673079,139.906725,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,111 1,福栄中学校入口,35.675156,139.909342,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,112 1,福栄,35.676795,139.911399,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,113 1,行徳駅前公園,35.678821,139.913925,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,114 1,南消防署,35.680194,139.915649,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,115 1,行徳バイパス,35.685091,139.914424,ok,ok,東京ベイ医療センター,7:32,18:30,658
+keisei-transitbus,keiseitransitbus,116 1,行徳支所・行徳公民館,35.685316,139.916436,ok,ok,東京ベイ医療センター,7:32,18:30,658
+keisei-transitbus,keiseitransitbus,117 1,南沖児童公園入口,35.683163,139.918531,ok,ok,東京ベイ医療センター,7:32,18:30,658
+keisei-transitbus,keiseitransitbus,118 1,末広,35.684454,139.920978,ok,ok,東京ベイ医療センター,7:32,18:30,658
+keisei-transitbus,keiseitransitbus,119 1,富浜３丁目,35.686053,139.922981,ok,ok,東京ベイ医療センター,7:32,18:30,658
+keisei-transitbus,keiseitransitbus,12 1,行徳三丁目,35.692497,139.917158,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,120 1,塩焼保育園入口,35.687938,139.925260,ok,ok,東京ベイ医療センター,7:32,18:30,658
+keisei-transitbus,keiseitransitbus,121 1,妙典４丁目,35.690314,139.928136,ok,ok,東京ベイ医療センター,7:32,18:30,658
+keisei-transitbus,keiseitransitbus,122 1,妙典５丁目,35.694058,139.929012,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,123 1,妙典２丁目,35.695904,139.926733,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,124 1,妙好寺入口,35.697529,139.925933,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,125 1,妙典駅入口,35.693924,139.923811,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,126 1,妙典３丁目,35.694216,139.923232,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,127 1,新行徳橋南,35.696636,139.923617,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,128 1,田尻２丁目,35.706792,139.927371,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,129 1,はなみずき公園,35.706177,139.932338,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,13 1,行徳四丁目,35.690574,139.915766,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,130 1,田尻３丁目,35.707127,139.933777,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,131 1,ショップス前,35.709463,139.937302,ok,ok,東京ベイ医療センター,8:13,18:23,610
+keisei-transitbus,keiseitransitbus,132 1,第六中学校入口,35.711135,139.934424,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,133 1,メディアパーク入口,35.713825,139.935494,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,134 1,現代産業科学館・メディアパーク,35.715102,139.933681,ok,ok,東京ベイ医療センター,10:23,17:10,407
+keisei-transitbus,keiseitransitbus,136 1,第七中学校,35.686690,139.916934,ok,okx,行徳中央病院,6:54,22:09,915
+keisei-transitbus,keiseitransitbus,137 1,行徳中央公園入口,35.688861,139.920348,ok,okx,行徳中央病院,6:54,22:09,915
+keisei-transitbus,keiseitransitbus,14 1,伊勢宿,35.688241,139.913491,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,141 1,幸中央公園,35.682546,139.929738,ok,ok,行徳中央病院,6:18,21:13,895
+keisei-transitbus,keiseitransitbus,142 1,ヴェレーナシティ行徳,35.678861,139.929877,ok,ok,行徳中央病院,6:18,21:13,895
+keisei-transitbus,keiseitransitbus,143 1,行徳総合病院,35.679469,139.931548,hub,hub,行徳総合病院,,,
+keisei-transitbus,keiseitransitbus,147 1,稲荷木保育園入口,35.712511,139.925123,okx,okx,東京ベイ医療センター,8:13,20:22,729
+keisei-transitbus,keiseitransitbus,15 1,押切,35.686128,139.911736,ok,ok,東京ベイ医療センター,6:19,21:22,903
+keisei-transitbus,keiseitransitbus,153 1,塩浜車庫,35.667891,139.928756,ok,ok,行徳中央病院,5:45,21:23,938
+keisei-transitbus,keiseitransitbus,16 1,湊新田,35.684849,139.909921,ok,ok,東京ベイ医療センター,6:19,21:22,903
+keisei-transitbus,keiseitransitbus,160 1,市川警察署／市川地方卸売市場前,35.711564,139.928892,okx,okx,東京ベイ医療センター,8:13,20:22,729
+keisei-transitbus,keiseitransitbus,161 1,市川地方卸売市場,35.710833,139.929944,okx,idle,東京ベイ医療センター,15:38,20:22,284
+keisei-transitbus,keiseitransitbus,162 1,アライ照明,35.710651,139.932831,okx,okx,東京ベイ医療センター,8:13,18:23,610
+keisei-transitbus,keiseitransitbus,164 1,小栗原住宅入口,35.707579,139.944923,okx,okx,東京ベイ医療センター,8:13,18:23,610
+keisei-transitbus,keiseitransitbus,165 1,北原木橋,35.706236,139.949225,okx,okx,東京ベイ医療センター,8:13,18:23,610
+keisei-transitbus,keiseitransitbus,167 1,西船橋駅南口,35.706885,139.956302,okx,okx,東京ベイ医療センター,8:13,18:23,610
+keisei-transitbus,keiseitransitbus,17 1,香取,35.683095,139.906986,ok,ok,東京ベイ医療センター,6:19,21:22,903
+keisei-transitbus,keiseitransitbus,18 1,源心寺,35.681981,139.903815,ok,ok,東京ベイ医療センター,6:19,21:22,903
+keisei-transitbus,keiseitransitbus,181 1,舞浜駅南口,35.635456,139.883856,idle,none,,,,
+keisei-transitbus,keiseitransitbus,19 1,欠真間,35.681428,139.901062,ok,ok,東京ベイ医療センター,6:19,21:22,903
+keisei-transitbus,keiseitransitbus,2 1,八幡車庫,35.718512,139.923462,okx,okx,東京ベイ医療センター,6:40,20:22,822
+keisei-transitbus,keiseitransitbus,20 1,中宿,35.680785,139.897943,ok,ok,東京ベイ医療センター,6:19,21:22,903
+keisei-transitbus,keiseitransitbus,21 1,相の川,35.680205,139.894880,ok,ok,東京ベイ医療センター,6:19,21:22,903
+keisei-transitbus,keiseitransitbus,22 1,新井新田,35.676339,139.892720,ok,ok,東京ベイ医療センター,6:19,21:22,903
+keisei-transitbus,keiseitransitbus,23 1,新井,35.674718,139.892091,ok,ok,東京ベイ医療センター,6:19,21:22,903
+keisei-transitbus,keiseitransitbus,24 1,東京ベイ医療センター,35.671589,139.893378,hub,hub,東京ベイ医療センター,,,
+keisei-transitbus,keiseitransitbus,25 1,当代島,35.669358,139.893094,ok,ok,東京ベイ医療センター,6:31,21:04,873
+keisei-transitbus,keiseitransitbus,26 1,浦安駅,35.666369,139.892957,ok,ok,東京ベイ医療センター,6:31,21:04,873
+keisei-transitbus,keiseitransitbus,27 1,浦安駅西口,35.665347,139.891866,okx,okx,東京ベイ医療センター,6:31,21:04,873
+keisei-transitbus,keiseitransitbus,29 1,行徳駅,35.683166,139.914653,ok,ok,行徳中央病院,6:54,22:09,915
+keisei-transitbus,keiseitransitbus,3 1,文化会館,35.716801,139.922012,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,30 1,新浜小学校,35.679406,139.918318,ok,ok,行徳中央病院,6:54,22:09,915
+keisei-transitbus,keiseitransitbus,31 1,行徳駅前四丁目,35.677794,139.918378,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,32 1,新浜一丁目,35.675832,139.915909,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,33 1,福栄二丁目,35.673440,139.912927,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,34 1,福栄三丁目,35.671772,139.910821,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,35 1,南行徳二丁目,35.669670,139.908195,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,36 1,南行徳四丁目,35.667191,139.907303,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,37 1,行徳高校,35.664316,139.910761,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,38 1,塩浜四丁目,35.663089,139.912649,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,39 1,ハイタウン塩浜,35.662017,139.914306,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,4 1,ＴDK,35.715641,139.921040,okx,okx,東京ベイ医療センター,7:53,21:22,809
+keisei-transitbus,keiseitransitbus,4 2,TDK,35.715326,139.920912,okx,okx,東京ベイ医療センター,6:40,20:22,822
+keisei-transitbus,keiseitransitbus,40 1,塩浜工業団地,35.659330,139.917814,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,41 1,浦安警察,35.653605,139.916538,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,42 1,新浦安駅,35.649598,139.914278,okx,okx,行徳中央病院,7:13,22:09,896
+keisei-transitbus,keiseitransitbus,5 1,大和田兜橋,35.713693,139.919123,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,52 1,行徳中央病院,35.676868,139.920786,hub,hub,行徳中央病院,,,
+keisei-transitbus,keiseitransitbus,53 1,宝二丁目,35.678968,139.923926,ok,ok,行徳中央病院,6:18,23:20,1022
+keisei-transitbus,keiseitransitbus,54 1,幸二丁目,35.680407,139.926006,ok,ok,行徳中央病院,6:18,23:20,1022
+keisei-transitbus,keiseitransitbus,55 1,幸一丁目,35.682402,139.928614,ok,ok,行徳中央病院,6:18,23:20,1022
+keisei-transitbus,keiseitransitbus,56 1,塩焼四丁目,35.684849,139.931259,ok,ok,行徳中央病院,6:18,21:39,921
+keisei-transitbus,keiseitransitbus,57 1,塩焼二丁目,35.687236,139.928846,ok,ok,行徳中央病院,6:18,21:39,921
+keisei-transitbus,keiseitransitbus,58 1,富浜二丁目,35.688583,139.927157,ok,ok,行徳中央病院,6:18,21:39,921
+keisei-transitbus,keiseitransitbus,6 1,一本松,35.710759,139.919240,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,60 1,妙典駅,35.691505,139.925618,ok,ok,行徳中央病院,6:18,22:09,951
+keisei-transitbus,keiseitransitbus,61 1,千鳥橋,35.675432,139.922208,ok,ok,行徳中央病院,5:45,21:23,938
+keisei-transitbus,keiseitransitbus,62 1,千鳥町,35.673219,139.924585,ok,ok,行徳中央病院,5:45,21:23,938
+keisei-transitbus,keiseitransitbus,63 1,塩浜二丁目,35.670395,139.927660,ok,ok,行徳中央病院,5:45,21:23,938
+keisei-transitbus,keiseitransitbus,64 1,市川塩浜駅,35.666521,139.923269,ok,ok,行徳中央病院,5:45,21:23,938
+keisei-transitbus,keiseitransitbus,7 1,稲荷木,35.708501,139.918864,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,77 1,鶴指,35.714906,139.916145,okx,okx,東京ベイ医療センター,7:53,20:22,749
+keisei-transitbus,keiseitransitbus,78 1,大洲郵便局,35.716458,139.912288,okx,okx,東京ベイ医療センター,7:53,20:22,749
+keisei-transitbus,keiseitransitbus,79 1,大洲防災公園,35.718146,139.910056,okx,okx,東京ベイ医療センター,7:53,20:22,749
+keisei-transitbus,keiseitransitbus,8 1,行徳橋北詰,35.705611,139.922938,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,80 1,大洲町,35.720139,139.908259,okx,okx,東京ベイ医療センター,7:53,20:22,749
+keisei-transitbus,keiseitransitbus,81 1,大洲三丁目,35.722290,139.905736,okx,okx,東京ベイ医療センター,7:53,20:22,749
+keisei-transitbus,keiseitransitbus,82 1,南二丁目,35.725874,139.905615,okx,okx,東京ベイ医療センター,7:53,20:22,749
+keisei-transitbus,keiseitransitbus,83 1,市川駅,35.728642,139.907414,okx,okx,東京ベイ医療センター,7:53,20:22,749
+keisei-transitbus,keiseitransitbus,9 1,行徳橋南詰,35.699692,139.921313,ok,ok,東京ベイ医療センター,6:40,21:22,882
+keisei-transitbus,keiseitransitbus,96 1,新井１丁目,35.672510,139.890317,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,97 1,当代島水門,35.672663,139.887142,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,98 1,島尻,35.674109,139.886312,ok,ok,東京ベイ医療センター,7:32,18:53,681
+keisei-transitbus,keiseitransitbus,99 1,新井排水機場,35.675939,139.886578,ok,ok,東京ベイ医療センター,7:32,18:53,681
+kimitsucity,Kimitsu_City_Community_Bus,140_1,山高原,35.280848,139.923315,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,69_1,旧偕楽園下,35.320747,139.931369,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,180_1,植畑根形,35.239314,139.992728,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,181_1,植畑上郷,35.234102,139.995608,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,182_1,植畑本郷,35.243286,139.995938,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,255_1,辻森,35.224631,140.019111,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,257_1,辻前公園,35.331070,139.899495,ok,ok,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,343_1,旅名,35.205993,140.022046,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,179_1,常代５丁目,35.304873,139.926299,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,178_1,常代１丁目,35.310460,139.915879,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,177_1,常代,35.309715,139.923101,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,281_1,日の出橋,35.229016,139.996816,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,156_1,周南口,35.308280,139.921546,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,155_1,周南公民館入口,35.295607,139.928676,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,48_1,外箕輪,35.315730,139.927140,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,160_1,宿原,35.213680,140.025353,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,41_1,下の台,35.198346,140.020406,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,185_1,新御堂入口,35.312168,139.911996,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,198_1,清和小,35.235905,140.001997,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,197_0,清和公民館,35.253815,139.995990,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,139_1,山王下,35.325663,139.913314,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,21_1,サン・ラポール,35.179203,140.007539,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,259_1,貞元小前,35.319936,139.899607,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,31_1,ロマンの森共和国,35.181660,140.008282,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,224_1,大山野,35.285673,139.925956,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,234_1,大和田橋,35.340868,139.878282,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,235_0,大和田郵便局,35.337046,139.874962,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,231_0,大和田,35.342618,139.874614,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,40_1,奥畑,35.189563,140.010086,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,222_1,大岩,35.219959,140.021048,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,203_0,西日笠,35.227183,140.000401,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,189_1,新道台,35.224172,140.016719,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,280_1,二入,35.229300,140.012694,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,242_1,中野,35.328738,139.897217,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,116_1,溝添社宅,35.306294,139.923906,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,66_1,宮下,35.303216,139.928259,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,327_1,味楽囲さだもと店,35.318305,139.904353,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,275_1,南子安小,35.324098,139.916442,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,274_1,南子安４丁目,35.322508,139.919616,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,137_1,三島湖,35.218149,140.027405,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,63_1,久保,35.329262,139.906109,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,105_1,郡の杜,35.308010,139.914263,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,106_1,郡入口,35.306250,139.916301,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,163_1,小原町,35.330242,139.894414,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,94_1,君津台西,35.342440,139.894711,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,98_1,君津台東,35.339460,139.897030,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,96_1,君津台中央,35.341205,139.896143,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,76_0,君津駅南口,35.333016,139.895319,okx,okx,玄々堂君津病院,8:16,19:58,702
+kimitsucity,Kimitsu_City_Community_Bus,81_0,君津駅北口,35.334552,139.895066,ok,ok,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,104_1,君津保育園,35.334269,139.897919,ok,ok,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,84_1,君津高校,35.343078,139.886900,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,74_0,君津グラウンドゴルフ場,35.273442,139.920798,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,89_1,君津市役所,35.330638,139.901953,ok,ok,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,75_0,君津バスターミナル,35.318628,139.935551,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,110_1,県民の森,35.174699,140.008924,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,215_1,川代,35.249434,139.998334,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,173_1,上の台,35.194724,140.016244,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,175_1,上宿,35.315686,139.907595,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,51_1,釜神,35.324000,139.894283,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,190_1,神門,35.340752,139.866484,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,218_1,泉南,35.304210,139.946556,okx,okx,玄々堂君津病院,8:16,19:08,652
+kimitsucity,Kimitsu_City_Community_Bus,216_1,泉,35.303646,139.953447,okx,okx,玄々堂君津病院,8:16,19:08,652
+kimitsucity,Kimitsu_City_Community_Bus,113_1,公会堂前,35.234767,140.004081,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,349_1,六手公民館前,35.304988,139.939329,okx,okx,玄々堂君津病院,8:16,19:08,652
+kimitsucity,Kimitsu_City_Community_Bus,149_1,自動車学校前,35.320979,139.892064,okx,okx,玄々堂君津病院,8:16,18:11,595
+kimitsucity,Kimitsu_City_Community_Bus,158_1,周南中前,35.300672,139.928304,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,157_1,周南小前,35.297990,139.928447,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,258_2,貞元社宅前,35.320936,139.896138,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,67_1,宮下公園前,35.303939,139.931308,okx,okx,玄々堂君津病院,8:16,19:08,652
+kimitsucity,Kimitsu_City_Community_Bus,170_0,小糸郵便局前,35.303083,139.957925,okx,okx,玄々堂君津病院,8:16,19:08,652
+kimitsucity,Kimitsu_City_Community_Bus,103_1,君津中前,35.327218,139.910159,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,24_1,ジョイフル本田前,35.322519,139.924077,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,4_1,アピタ前,35.331846,139.898490,okx,okx,玄々堂君津病院,8:16,19:58,702
+kimitsucity,Kimitsu_City_Community_Bus,321_1,法木作,35.318168,139.928542,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,194_0,人見神社,35.335477,139.867335,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,192_0,人見,35.341590,139.868748,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,316_1,平田,35.245910,139.992981,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,282_1,日笠,35.238617,140.000931,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,267_1,東日笠,35.231460,140.004715,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,262_1,東粟倉,35.246854,140.004202,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,111_1,玄々堂君津病院,35.336597,139.895758,hub,hub,玄々堂君津病院,,,
+kimitsucity,Kimitsu_City_Community_Bus,309_1,富士食品前,35.343101,139.890607,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,68_0,旧周西幼稚園,35.335948,139.870785,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Kimitsu_City_Community_Bus,252_1,追込台,35.229030,140.003177,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,147_1,市民文化ホール,35.316236,139.935617,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,146_1,市民体育館,35.322455,139.927806,okx,okx,玄々堂君津病院,7:06,19:58,772
+kimitsucity,Kimitsu_City_Community_Bus,34_1,粟倉橋,35.252189,139.998002,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,107_1,穴原口,35.228742,140.015311,none,none,,,,
+kimitsucity,Kimitsu_City_Community_Bus,357_1,周西の丘小,35.343242,139.884286,ok,ok,玄々堂君津病院,7:33,19:31,718
+kimitsucity,Local_buses_via_Kimitsu_City,342_1,陽光台,35.336300,139.905456,ok,ok,君津中央病院,6:54,18:41,707
+kimitsucity,Local_buses_via_Kimitsu_City,65_1,休場,35.259202,139.937890,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,340_1,矢那川ダム,35.343266,139.994204,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,339_1,矢那,35.352469,139.968412,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,299_1,八重原,35.328924,139.924434,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,204_1,請西小学校,35.374173,139.943784,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,236_1,大和田陸橋下,35.341080,139.878444,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,254_1,塚原,35.298512,139.978079,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,256_1,辻森,35.224625,140.019177,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,152_1,鹿野山山頂,35.254873,139.959307,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,260_1,田中台,35.255380,139.993252,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,119_1,高倉観音下,35.336839,139.995562,idle,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,159_1,周南入口,35.270297,139.920669,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,23_1,サンライフ鹿野山,35.249362,139.944639,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,154_1,主基駅,35.129523,140.037950,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,196_1,水道山下,35.332943,139.907445,okx,okx,三枝病院前,15:03,16:19,76
+kimitsucity,Local_buses_via_Kimitsu_City,317_1,変電所,35.263275,139.893264,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,49_1,外箕輪,35.317952,139.923596,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,26_1,ソニー入口,35.362652,139.912861,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,348_1,六手,35.308001,139.942543,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,161_1,宿原,35.213666,140.025363,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,186_1,新町,35.313068,139.813804,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,187_1,新田１丁目,35.377302,139.923554,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,42_1,下の台,35.198356,140.020400,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,44_1,下小糸,35.283223,139.982137,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,45_1,下飯野,35.308780,139.855702,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,43_1,下安知那,35.321212,139.840540,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,153_1,芝原,35.274563,139.984669,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,58_1,関山口,35.265370,139.910528,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,39_1,堰端,35.316378,139.857808,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,197_0,清和公民館,35.253815,139.995990,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,121_0,佐貫町駅,35.260528,139.876175,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,141_1,山麓,35.268179,139.923504,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,138_1,山王下,35.326670,139.912973,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,129_2,桜井谷,35.359247,139.921335,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,128_1,桜井西,35.363056,139.915518,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,132_1,桜井南町,35.360936,139.915127,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,131_1,桜井南公園,35.360039,139.913627,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,133_1,桜井北町,35.365907,139.918147,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,130_1,桜井東町,35.368370,139.921677,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,127_1,桜井,35.364186,139.917415,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,126_1,堺田公園,35.338248,139.882620,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,125_1,坂田浜ノ作,35.348395,139.895482,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,124_1,坂田,35.346885,139.891314,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,22_1,サン・ラポール,35.179200,140.007537,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,32_1,ロマンの森共和国,35.181739,140.008299,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,347_1,六三橋,35.310075,139.938305,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,325_1,牧場入口,35.253029,139.954733,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,109_1,県営住宅入口,35.317944,139.920803,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,230_1,大和田,35.343304,139.875374,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,220_1,太田,35.376536,139.943767,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,221_0,大貫駅東口,35.292077,139.855649,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,229_1,大野台,35.271470,139.997504,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,253_1,追分,35.121843,140.067989,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,228_1,大堀二丁目,35.332153,139.851653,okx,okx,三枝病院前,12:03,18:09,366
+kimitsucity,Local_buses_via_Kimitsu_City,227_1,大堀１丁目,35.334563,139.858993,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,226_1,大堀,35.333071,139.861132,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,117_1,糠田,35.302020,139.973171,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,3_1,NTT木更津,35.378043,139.918600,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,284_1,能蔵院入口,35.354913,139.920550,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,285_1,能満寺公園,35.346248,139.911309,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,2_1,NITEバイオC,35.333137,139.992105,none,idle,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,201_1,西坂田,35.337473,139.890234,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,202_1,西川,35.318768,139.836169,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,279_1,二小前,35.376593,139.927748,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,276_1,南清小学校,35.372105,139.969216,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,288_1,波岡小学校入口,35.344089,139.920717,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,287_1,波岡,35.352087,139.920315,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,240_0,中島,35.305328,139.961264,ok,ok,鈴木病院前,6:11,19:41,810
+kimitsucity,Local_buses_via_Kimitsu_City,244_1,中野５丁目,35.332531,139.887423,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,243_1,中野３丁目,35.331663,139.890088,ok,ok,鈴木病院前,11:16,18:31,435
+kimitsucity,Local_buses_via_Kimitsu_City,245_1,仲村口,35.261249,139.880769,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,246_1,仲町,35.313739,139.818765,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,249_1,長狭中前,35.131548,140.016346,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,162_1,春日山,35.253023,139.952210,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,28_1,マザー牧場,35.248113,139.941267,noreturn,noreturn,鈴木病院前,15:51,14:47,
+kimitsucity,Local_buses_via_Kimitsu_City,338_1,杢師４丁目,35.319211,139.917400,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,134_1,三ツ池,35.300874,139.857862,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,30_1,ミツバ園,35.341804,139.891973,okx,okx,三枝病院前,8:47,19:04,617
+kimitsucity,Local_buses_via_Kimitsu_City,136_1,三直,35.313035,139.935347,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,320_1,峯薬師,35.362935,139.922446,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,277_1,南町,35.380365,139.922415,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,272_1,南久保,35.326931,139.906113,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,273_1,南子安,35.329427,139.914943,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,289_1,馬登西口,35.264283,139.930972,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,64_1,久保前,35.369989,139.973226,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,62_1,久保,35.329265,139.906102,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,142_1,子安,35.332969,139.922957,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,118_1,高坂,35.332663,139.902183,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,115_1,港南台一丁目,35.354075,139.914532,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,120_1,国道請西,35.370060,139.929748,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,191_1,神野寺,35.253992,139.963084,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,73_1,駒久保,35.294637,139.978989,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,167_1,小糸中農協,35.305584,139.957606,ok,ok,鈴木病院前,6:11,19:41,810
+kimitsucity,Local_buses_via_Kimitsu_City,165_1,小糸地域市民センター,35.303900,139.969128,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,346_1,恋の森,35.377732,139.940713,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,164_1,小原町,35.330247,139.894402,ok,ok,君津中央病院,6:54,18:41,707
+kimitsucity,Local_buses_via_Kimitsu_City,172_1,小浜第二橋,35.349839,139.911071,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,171_1,小浜,35.355231,139.908772,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,324_1,北子安４丁目,35.333140,139.912967,okx,okx,三枝病院前,15:03,16:19,76
+kimitsucity,Local_buses_via_Kimitsu_City,323_1,北子安,35.331658,139.916823,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,328_0,木更津駅西口,35.381023,139.925415,ok,ok,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,332_0,木更津駅東口,35.381611,139.927295,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,335_1,木更津総合高校,35.375109,139.955461,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,333_1,木更津港,35.381481,139.919201,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,336_1,木更津南インター入口,35.347026,139.921167,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,95_1,君津台西,35.342430,139.894756,okx,okx,三枝病院前,8:47,19:04,617
+kimitsucity,Local_buses_via_Kimitsu_City,99_1,君津台東,35.339459,139.897030,okx,okx,三枝病院前,8:47,19:04,617
+kimitsucity,Local_buses_via_Kimitsu_City,97_1,君津台中央,35.341206,139.896142,okx,okx,三枝病院前,8:47,19:04,617
+kimitsucity,Local_buses_via_Kimitsu_City,93_0,君津製鉄所,35.357011,139.902296,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,77_0,君津駅南口,35.333008,139.895316,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,79_0,君津駅北口,35.334615,139.894844,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,102_1,君津中学校,35.327219,139.910159,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,100_1,君津中,35.325804,139.908467,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,87_1,君津合同庁舎,35.371102,139.917316,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,86_1,君津高入口,35.338029,139.887230,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,85_1,君津高校入口,35.338029,139.887230,okx,okx,三枝病院前,8:47,19:04,617
+kimitsucity,Local_buses_via_Kimitsu_City,83_0,君津健康センター,35.346308,139.873456,okx,okx,鈴木病院前,9:24,17:01,457
+kimitsucity,Local_buses_via_Kimitsu_City,88_1,君津市役所,35.330073,139.901866,ok,ok,君津中央病院,6:54,18:41,707
+kimitsucity,Local_buses_via_Kimitsu_City,101_0,君津中央病院,35.360636,139.923818,hub,hub,君津中央病院,,,
+kimitsucity,Local_buses_via_Kimitsu_City,352_0,君津バスターミナル,35.318432,139.936133,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,17_1,かずさ高倉,35.336313,139.992977,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,18_1,かずさ小糸南,35.314970,139.993010,none,idle,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,19_1,かずさ小糸北,35.315526,139.996473,none,idle,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,16_1,かずさ鎌足３丁目東,35.325450,139.993992,none,idle,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,14_1,かずさ鎌足１丁目南,35.341880,139.992870,none,idle,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,15_1,かずさ鎌足１丁目北,35.344427,139.990279,none,idle,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,176_1,上総農園,35.341101,139.984247,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,12_1,かずさＤＮＡ研究所,35.331021,139.988974,none,idle,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,13_0,かずさアーク,35.335081,139.989444,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,151_1,鹿野山口,35.262187,139.888757,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,71_1,金谷,35.367088,139.955601,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,55_1,鴨川シーワールド,35.116502,140.120274,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,56_1,鴨川市役所入口,35.112182,140.097237,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,174_1,上根本自治会館,35.302620,139.993506,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,60_1,亀下,35.330279,139.855579,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,61_0,亀田病院,35.120097,140.126428,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,52_1,鎌足中郷,35.356259,139.964472,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,54_1,鎌滝原,35.280088,139.984117,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,53_1,鎌滝,35.277553,139.983081,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,47_1,貝渕南,35.371573,139.923742,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,46_1,貝渕,35.373437,139.923972,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,190_1,神門,35.340780,139.866477,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,37_1,伊豆島上,35.368075,139.978027,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,36_1,伊豆島,35.373066,139.964333,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,217_1,泉,35.306996,139.948121,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,59_1,岩富南口,35.269406,139.917707,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,247_1,猪原,35.258065,140.002336,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,248_1,猪台,35.343787,139.979760,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,304_1,八重原局前,35.329025,139.928891,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,305_1,八重原寮前,35.328516,139.931891,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,303_0,八重原Ａ８棟前,35.326047,139.936075,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,302_0,八重原Ａ３棟前,35.328042,139.935617,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,301_0,八重原Ａ１０棟前,35.327350,139.938236,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,251_1,鳥居崎海浜公園前,35.381209,139.916100,okx,okx,鈴木病院前,9:24,17:01,457
+kimitsucity,Local_buses_via_Kimitsu_City,341_0,友好館前,35.325956,139.932747,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,315_1,福祉センター前,35.121619,140.084415,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,200_1,精米所前,35.360883,139.959026,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,108_1,県営住宅前,35.366931,139.916494,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,112_1,公園前,35.322154,139.925579,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,57_1,観測所前,35.253773,139.956250,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,318_1,保育園前,35.262105,139.884350,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,11_1,かじや本店前,35.314255,139.821043,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,123_1,裁判所前,35.378482,139.922330,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,114_1,公民館前,35.347996,139.975925,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,238_1,中央門前,35.345741,139.879604,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,286_1,農協青堀支店前,35.324539,139.846376,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,344_1,鈴木病院前,35.305975,139.955429,hub,hub,鈴木病院前,,,
+kimitsucity,Local_buses_via_Kimitsu_City,25_1,ソニー前,35.358533,139.912997,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,188_1,新田郵便局前,35.377059,139.922045,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,50_1,学校前,35.375533,139.933830,ok,ok,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,122_1,佐貫郵便局前,35.262070,139.885853,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,135_1,三枝病院前,35.326451,139.849505,hub,hub,三枝病院前,,,
+kimitsucity,Local_buses_via_Kimitsu_City,237_1,大和田寮前,35.340098,139.874722,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,233_0,大和田Ｄ１棟前,35.338222,139.869577,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,223_1,大佐和教習所前,35.296600,139.857090,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,72_1,駒井鉄工寮前,35.331069,139.848331,okx,okx,三枝病院前,12:03,18:09,366
+kimitsucity,Local_buses_via_Kimitsu_City,169_1,小糸中農協前,35.305584,139.957606,ok,ok,鈴木病院前,6:51,18:24,693
+kimitsucity,Local_buses_via_Kimitsu_City,334_1,木更津市民会館前,35.374092,139.918006,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,92_1,君津市役所前,35.329112,139.901728,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,270_1,東病院前,35.327049,139.856236,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,294_1,畑沢マーケット前,35.345330,139.906725,ok,ok,君津中央病院,6:54,18:41,707
+kimitsucity,Local_buses_via_Kimitsu_City,225_1,大乗寺前,35.314890,139.824725,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,183_1,信金前,35.380367,139.930901,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,210_1,青堀局前,35.331815,139.858912,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,144_1,市宿中,35.266387,139.991214,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,143_1,市宿,35.268638,139.991267,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,145_1,市場,35.260017,139.995008,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,205_1,請西小関,35.373697,139.952579,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,207_1,請西平川,35.371996,139.954545,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,27_1,ほたる野,35.372933,139.960572,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,319_1,宝竜寺,35.262832,139.900310,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,326_1,堀の内,35.304600,139.966472,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,322_1,法木作,35.318166,139.928573,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,195_1,人見大橋,35.331243,139.871862,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,193_1,人見,35.341726,139.869327,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,264_1,東佐貫,35.262158,139.890295,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,266_1,東坂田四丁目,35.336598,139.895759,okx,okx,三枝病院前,8:47,19:04,617
+kimitsucity,Local_buses_via_Kimitsu_City,265_1,東坂田,35.334274,139.897915,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,268_1,東日笠,35.231469,140.004715,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,269_1,東畑沢,35.346987,139.913917,ok,ok,君津中央病院,6:54,18:41,707
+kimitsucity,Local_buses_via_Kimitsu_City,263_1,東粟倉,35.246855,140.004202,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,283_1,日枝神社,35.367603,139.979923,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,337_1,杢師,35.322688,139.911409,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,298_1,畑沢南５丁目,35.339128,139.905813,ok,ok,君津中央病院,6:54,18:41,707
+kimitsucity,Local_buses_via_Kimitsu_City,297_1,畑沢南３丁目,35.342962,139.908450,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,296_1,畑沢南２丁目,35.340473,139.901639,ok,ok,君津中央病院,6:54,18:41,707
+kimitsucity,Local_buses_via_Kimitsu_City,295_1,畑沢南１丁目,35.342859,139.899997,ok,ok,君津中央病院,6:54,18:41,707
+kimitsucity,Local_buses_via_Kimitsu_City,293_0,畑沢３丁目北,35.348718,139.907265,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,292_1,畑沢３丁目東,35.346300,139.909712,ok,ok,君津中央病院,6:54,18:41,707
+kimitsucity,Local_buses_via_Kimitsu_City,291_1,畑沢２丁目,35.345209,139.901074,ok,ok,君津中央病院,6:54,18:41,707
+kimitsucity,Local_buses_via_Kimitsu_City,290_1,畑沢,35.349684,139.898688,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,306_1,浜町,35.313287,139.815722,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,219_1,草敷,35.332871,140.001955,idle,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,70_1,牛房谷,35.263586,139.896329,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,311_1,富津公園入口,35.312956,139.810927,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,310_0,富津公園,35.312991,139.810801,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,313_1,富津中入口,35.322475,139.856892,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,312_0,富津市役所,35.304392,139.856786,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,278_1,二間塚,35.330165,139.865184,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,314_1,福岡,35.287853,139.980016,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,308_1,富士見通り,35.382011,139.923369,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,307_1,富士見公園,35.333195,139.880717,okx,okx,鈴木病院前,8:36,16:57,501
+kimitsucity,Local_buses_via_Kimitsu_City,250_1,長石大橋,35.314294,140.001214,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,150_1,自動車学校入口,35.373762,139.947248,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,166_1,小糸小入口,35.292073,139.990496,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,38_1,駅前通り,35.379029,139.933746,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,271_1,東門入口,35.351355,139.902742,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,1_1,ＤＮＡ研究所,35.331021,139.988974,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,261_1,電通富津クラブ,35.263234,139.905598,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,20_1,クルックフィールズ入口,35.326224,139.988176,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,148_1,市民文化ホール,35.316536,139.935770,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,199_1,清和中,35.235900,140.002003,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,239_1,中央門入口,35.344529,139.881674,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,5_1,アピタ前,35.331844,139.898500,ok,ok,鈴木病院前,7:21,18:31,670
+kimitsucity,Local_buses_via_Kimitsu_City,35_0,安房鴨川駅,35.107798,140.103245,okx,okx,鈴木病院前,8:24,17:01,517
+kimitsucity,Local_buses_via_Kimitsu_City,33_1,粟倉,35.252972,139.995008,ok,ok,鈴木病院前,6:47,19:41,774
+kimitsucity,Local_buses_via_Kimitsu_City,184_1,新井,35.315981,139.829448,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,214_1,青木,35.323252,139.843704,ok,ok,三枝病院前,6:04,20:28,864
+kimitsucity,Local_buses_via_Kimitsu_City,212_1,青堀小前,35.327959,139.851977,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,213_1,青堀中央,35.335279,139.863365,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,208_0,青堀駅,35.330591,139.858230,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,211_1,青堀鉱泉,35.337261,139.863910,ok,ok,三枝病院前,7:18,19:04,706
+kimitsucity,Local_buses_via_Kimitsu_City,6_1,イオンタウン君津,35.335013,139.884820,ok,ok,鈴木病院前,11:16,18:31,435
+kimitsucity,Local_buses_via_Kimitsu_City,10_0,イオンモール木更津（従業員口）,35.367149,139.907154,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,9_0,イオンモール木更津,35.365970,139.909125,okx,okx,鈴木病院前,8:24,18:31,607
+kimitsucity,Local_buses_via_Kimitsu_City,8_0,イオンモール富津北口,35.330807,139.846952,none,none,,,,
+kimitsucity,Local_buses_via_Kimitsu_City,7_0,イオンモール富津,35.329716,139.846502,okx,okx,三枝病院前,12:03,18:09,366
+kimitsucity,Local_buses_via_Kimitsu_City,353_0,富津営業所,35.305168,139.833030,oneway,oneway,鈴木病院前,,,
+kimitsucity,Local_buses_via_Kimitsu_City,354_1,川名,35.306622,139.830632,oneway,oneway,鈴木病院前,,,
+kimitsucity,Local_buses_via_Kimitsu_City,355_1,農協青堀支店,35.324543,139.846304,noreturn,oneway,三枝病院前,7:34,7:18,
+kimitsucity,Local_buses_via_Kimitsu_City,356_1,イオンタウン君津前,35.333098,139.885479,okx,okx,鈴木病院前,8:36,16:57,501
+matsudocity,matsudo,1_01,総合医療センター,35.803377,139.932891,hub,hub,総合医療センター,,,
+matsudocity,matsudo,10_01,殿山公園入口,35.805002,139.918505,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,11_01,安房須神社入口,35.803265,139.918356,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,12_01,北松戸三丁目,35.801193,139.917583,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,13_01,北松戸駅,35.800535,139.912001,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,14_01,北松戸駅前通り,35.798962,139.914383,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,15_01,上本郷小入口,35.799950,139.918614,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,16_01,専大松戸高校,35.799838,139.920941,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,17_01,上本郷四丁目,35.800416,139.923830,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,18_01,県立松戸高校,35.802333,139.925899,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,19_01,松高裏門,35.802065,139.927880,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,2_01,稲荷,35.802566,139.928652,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,3_01,熊野神社入口,35.803634,139.923868,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,4_01,宮ノ後,35.805959,139.922813,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,5_01,中和倉商店街,35.807467,139.923825,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,6_01,前田,35.811104,139.923414,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,7_01,馬橋駅入口,35.812503,139.920760,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,8_01,馬橋東口商店街,35.810990,139.919274,ok,idle,総合医療センター,7:37,18:25,648
+matsudocity,matsudo,9_01,馬橋東市民センター,35.807857,139.919421,ok,idle,総合医療センター,7:37,18:25,648
+nagareyamacity,nagareyamagreenbus,1_01,青田１号公園前,35.897598,139.924463,none,none,,,,
+nagareyamacity,nagareyamagreenbus,10_01,江戸川台１４号公園前,35.904652,139.914366,none,none,,,,
+nagareyamacity,nagareyamagreenbus,100_02,南流山８丁目東,35.837429,139.895962,none,none,,,,
+nagareyamacity,nagareyamagreenbus,101_01,森の図書館,35.910869,139.916853,none,none,,,,
+nagareyamacity,nagareyamagreenbus,102_01,八木北小学校南門入口,35.883543,139.930197,none,none,,,,
+nagareyamacity,nagareyamagreenbus,103_01,八木郵便局前,35.887957,139.933825,none,none,,,,
+nagareyamacity,nagareyamagreenbus,104_01,ルアジーランド,35.911642,139.914218,none,none,,,,
+nagareyamacity,nagareyamagreenbus,105_01,ロジポート前,35.881626,139.901238,none,none,,,,
+nagareyamacity,nagareyamagreenbus,106_01,若葉台,35.882343,139.909423,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,107_01,おおぐろの森中学校前,35.874657,139.912971,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,108_01,流山おおたかの森駅東口,35.872072,139.926360,none,none,,,,
+nagareyamacity,nagareyamagreenbus,109_01,東初石五丁目,35.880562,139.925758,none,none,,,,
+nagareyamacity,nagareyamagreenbus,11_02,江戸川台小学校前,35.901042,139.912016,none,none,,,,
+nagareyamacity,nagareyamagreenbus,110_01,おおたかの森西四丁目,35.876326,139.920018,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,12_01,江戸川台西口商店街,35.896004,139.909363,none,none,,,,
+nagareyamacity,nagareyamagreenbus,13_01,江戸川台東３丁目商店会,35.901120,139.913837,none,none,,,,
+nagareyamacity,nagareyamagreenbus,14_02,江戸川台東４丁目,35.903880,139.910998,none,none,,,,
+nagareyamacity,nagareyamagreenbus,15_01,江戸川台福祉会館前,35.898973,139.913337,none,none,,,,
+nagareyamacity,nagareyamagreenbus,17_01,おおたかの森病院前,35.867293,139.930022,hub,hub,おおたかの森病院前,,,
+nagareyamacity,nagareyamagreenbus,18_01,小田急ハイツ,35.893665,139.903673,none,none,,,,
+nagareyamacity,nagareyamagreenbus,19_01,木,35.832728,139.895897,none,none,,,,
+nagareyamacity,nagareyamagreenbus,2_01,青田東,35.899125,139.927615,none,none,,,,
+nagareyamacity,nagareyamagreenbus,20_01,木自治会館入口,35.835578,139.893655,none,none,,,,
+nagareyamacity,nagareyamagreenbus,21_01,北１号公園前,35.891482,139.899242,none,none,,,,
+nagareyamacity,nagareyamagreenbus,22_01,木西,35.833215,139.892870,none,none,,,,
+nagareyamacity,nagareyamagreenbus,23_01,木南,35.831303,139.894352,none,none,,,,
+nagareyamacity,nagareyamagreenbus,24_01,県民プラザ前,35.896099,139.933088,none,none,,,,
+nagareyamacity,nagareyamagreenbus,25_01,駒木台第二自治会館入口,35.894545,139.929124,none,none,,,,
+nagareyamacity,nagareyamagreenbus,26_01,駒木台中央,35.896050,139.928887,none,none,,,,
+nagareyamacity,nagareyamagreenbus,27_01,駒木台東,35.893919,139.933471,none,none,,,,
+nagareyamacity,nagareyamagreenbus,28_01,駒木台福祉会館入口,35.890906,139.931497,none,none,,,,
+nagareyamacity,nagareyamagreenbus,29_01,コミュニティプラザ前,35.878167,139.909808,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,3_01,青田南,35.896551,139.927273,none,none,,,,
+nagareyamacity,nagareyamagreenbus,30_01,サンロード入口,35.862014,139.941555,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,31_01,ＧＬＰ流山,35.885080,139.900375,none,none,,,,
+nagareyamacity,nagareyamagreenbus,32_01,四季野公園入口,35.858181,139.941748,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,33_02,四季の杜,35.913279,139.913954,none,none,,,,
+nagareyamacity,nagareyamagreenbus,34_01,ショッピングセンター前,35.869710,139.924452,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,36_01,星和住宅,35.909104,139.917309,none,none,,,,
+nagareyamacity,nagareyamagreenbus,37_01,星和住宅団地,35.906415,139.915986,none,none,,,,
+nagareyamacity,nagareyamagreenbus,38_01,ＴＢＳやよい団地,35.914667,139.918652,none,none,,,,
+nagareyamacity,nagareyamagreenbus,39_02,東急１号公園前,35.910415,139.912841,none,none,,,,
+nagareyamacity,nagareyamagreenbus,4_01,赤坂橋,35.888501,139.898745,none,none,,,,
+nagareyamacity,nagareyamagreenbus,40_01,東部近隣公園入口,35.847350,139.941510,ok,ok,東部診療所前,6:43,20:08,805
+nagareyamacity,nagareyamagreenbus,41_01,東部診療所前,35.844317,139.942246,hub,hub,東部診療所前,,,
+nagareyamacity,nagareyamagreenbus,42_01,東部中学校入口,35.845055,139.941210,ok,ok,東部診療所前,6:43,20:08,805
+nagareyamacity,nagareyamagreenbus,43_01,豊四季駅南口,35.866194,139.939335,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,44_01,豊四季第一公園,35.858144,139.948271,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,45_01,長崎入口,35.865694,139.935523,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,46_01,長崎小学校入口,35.860912,139.936576,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,47_01,流山おおたかの森駅西口,35.872372,139.924561,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,48_01,流山北高校前,35.895993,139.896491,none,none,,,,
+nagareyamacity,nagareyamagreenbus,49_01,流山郵便局前,35.878649,139.915600,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,5_01,東小学校前,35.843201,139.943444,ok,ok,東部診療所前,7:08,19:43,755
+nagareyamacity,nagareyamagreenbus,50_01,名都借,35.848426,139.944924,ok,ok,東部診療所前,6:43,20:08,805
+nagareyamacity,nagareyamagreenbus,51_01,名都借交差点,35.846988,139.939977,ok,ok,東部診療所前,6:43,20:08,805
+nagareyamacity,nagareyamagreenbus,52_01,７号公園,35.839905,139.898469,none,none,,,,
+nagareyamacity,nagareyamagreenbus,53_01,西初石３丁目（初石駅入口）,35.883035,139.913876,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,54_01,西初石中学校前,35.880022,139.910493,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,55_01,西初石２丁目,35.884186,139.910774,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,56_01,西初石４丁目,35.880826,139.914725,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,57_01,西松ケ丘１丁目,35.845341,139.945683,ok,ok,東部診療所前,7:08,19:43,755
+nagareyamacity,nagareyamagreenbus,58_01,野々下１号公園,35.859928,139.943895,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,59_01,野々下５丁目,35.861196,139.943693,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,6_01,愛宕ふれあいの森,35.898097,139.896588,none,none,,,,
+nagareyamacity,nagareyamagreenbus,60_01,野々下５丁目西,35.861352,139.940340,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,61_01,野々下３丁目,35.862559,139.937832,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,62_01,野々下４号公園,35.857614,139.945057,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,63_01,野々下４丁目北,35.860184,139.938572,ok,ok,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,64_01,パークホームズ前,35.878647,139.918993,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,65_01,ハートケア流山前,35.894155,139.897045,none,none,,,,
+nagareyamacity,nagareyamagreenbus,66_01,８号公園,35.841586,139.895327,none,none,,,,
+nagareyamacity,nagareyamagreenbus,68_02,東深井散策の森入口,35.910482,139.910463,none,none,,,,
+nagareyamacity,nagareyamagreenbus,69_02,東深井１２号緑地前,35.906383,139.909939,none,none,,,,
+nagareyamacity,nagareyamagreenbus,7_01,江戸川台駅西口,35.897352,139.910047,none,none,,,,
+nagareyamacity,nagareyamagreenbus,70_02,東深井小学校前,35.908552,139.909729,none,none,,,,
+nagareyamacity,nagareyamagreenbus,71_01,東深井７号公園前,35.905776,139.914568,none,none,,,,
+nagareyamacity,nagareyamagreenbus,72_01,東深井２８号公園前,35.914762,139.914986,none,none,,,,
+nagareyamacity,nagareyamagreenbus,73_02,東深井福祉会館入口,35.911495,139.913860,none,none,,,,
+nagareyamacity,nagareyamagreenbus,74_01,富士見台１・２丁目,35.892385,139.905043,none,none,,,,
+nagareyamacity,nagareyamagreenbus,75_01,富士見台郵便局前,35.891986,139.901862,none,none,,,,
+nagareyamacity,nagareyamagreenbus,76_01,船戸,35.836088,139.897194,none,none,,,,
+nagareyamacity,nagareyamagreenbus,78_01,北部公民館入口,35.897069,139.904904,none,none,,,,
+nagareyamacity,nagareyamagreenbus,79_01,保健センター前,35.879566,139.918053,okx,okx,東部診療所前,7:43,18:08,625
+nagareyamacity,nagareyamagreenbus,8_01,江戸川台駅東口,35.898082,139.910427,none,none,,,,
+nagareyamacity,nagareyamagreenbus,80_01,ほっとプラザ,35.875230,139.901069,none,none,,,,
+nagareyamacity,nagareyamagreenbus,81_01,松ケ丘旭会館前,35.845382,139.947257,ok,ok,東部診療所前,7:08,19:43,755
+nagareyamacity,nagareyamagreenbus,82_01,松ケ丘５丁目,35.851880,139.946072,ok,ok,東部診療所前,6:43,20:08,805
+nagareyamacity,nagareyamagreenbus,83_01,松ケ丘３丁目,35.843616,139.945294,ok,ok,東部診療所前,7:08,19:43,755
+nagareyamacity,nagareyamagreenbus,84_01,松ケ丘団地,35.846242,139.950752,ok,ok,東部診療所前,7:08,19:43,755
+nagareyamacity,nagareyamagreenbus,85_01,松ケ丘２丁目,35.847624,139.947980,ok,ok,東部診療所前,7:08,19:43,755
+nagareyamacity,nagareyamagreenbus,86_01,松ケ丘ふるさとの森公園,35.849640,139.945586,ok,ok,東部診療所前,6:43,20:08,805
+nagareyamacity,nagareyamagreenbus,87_02,松ケ丘６丁目,35.853628,139.945705,okx,okx,東部診療所前,6:43,19:08,745
+nagareyamacity,nagareyamagreenbus,88_01,松風自治会集会所前,35.853523,139.944887,okx,okx,東部診療所前,7:43,20:08,745
+nagareyamacity,nagareyamagreenbus,89_01,美田１号公園,35.885606,139.930846,none,none,,,,
+nagareyamacity,nagareyamagreenbus,9_01,江戸川台１５号公園前,35.892439,139.907429,none,none,,,,
+nagareyamacity,nagareyamagreenbus,90_01,美田桜並木通り,35.882438,139.929394,none,none,,,,
+nagareyamacity,nagareyamagreenbus,91_01,美田団地入口,35.882134,139.925815,none,none,,,,
+nagareyamacity,nagareyamagreenbus,92_01,南柏駅西口,35.845380,139.953776,ok,ok,東部診療所前,7:08,19:43,755
+nagareyamacity,nagareyamagreenbus,93_01,南流山駅南口,35.838197,139.903168,none,none,,,,
+nagareyamacity,nagareyamagreenbus,94_01,南流山３丁目,35.836671,139.900119,none,none,,,,
+nagareyamacity,nagareyamagreenbus,95_01,南流山自治会館入口,35.839502,139.896362,none,none,,,,
+nagareyamacity,nagareyamagreenbus,96_01,南流山センター,35.838713,139.901440,none,none,,,,
+nagareyamacity,nagareyamagreenbus,97_01,南流山７丁目,35.840813,139.893816,none,none,,,,
+nagareyamacity,nagareyamagreenbus,98_01,南流山７丁目北,35.843916,139.894764,none,none,,,,
+nagareyamacity,nagareyamagreenbus,99_01,南流山８丁目西,35.838065,139.894690,none,none,,,,
+naritacity,narita-community-bus,1_1,保健福祉館,35.781640,140.290394,ok,ok,日赤病院,7:57,16:58,541
+naritacity,narita-community-bus,2_1,日赤病院,35.764317,140.303918,hub,hub,日赤病院,,,
+naritacity,narita-community-bus,3_1,京成成田駅東口,35.776752,140.317088,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,4_1,成田市役所,35.777385,140.317921,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,5_0,京成成田駅中央口,35.777066,140.315092,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,6_1,御所の内,35.780412,140.329067,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,7_1,東和田,35.776513,140.330303,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,8_1,川栗,35.765112,140.336737,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,9_1,ゴルフ場入口,35.762707,140.345769,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,10_1,遠山公民館入口,35.763569,140.357563,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,11_1,新駒井野星神社前,35.756191,140.366164,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,12_1,セントアンナ在宅介護支援センター入口,35.752252,140.365751,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,13_1,本三里塚なかまち公園,35.750642,140.367239,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,14_1,三里塚小学校,35.751511,140.371977,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,15_1,三里塚小学校北,35.753696,140.372392,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,16_1,本三里塚共同利用施設入口,35.755644,140.373875,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,17_1,光ヶ丘共同利用施設,35.750672,140.375147,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,18_1,三里塚御料牧場記念館北,35.749710,140.372816,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,19_1,西三里塚北,35.747006,140.368278,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,20_1,西三里塚共同利用施設,35.742487,140.365314,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,21_1,上本城,35.739472,140.366985,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,22_1,本城,35.742006,140.368776,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,23_1,三里塚コミュニティセンター,35.745509,140.370062,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,24_1,桜川,35.743347,140.377542,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,25_1,長原,35.731033,140.386616,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,27_1,成田公民館,35.784586,140.320102,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,28_1,成田高校,35.783879,140.322471,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,29_1,保育園,35.784871,140.325215,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,30_1,接骨院前,35.786431,140.327198,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,31_1,寺台入口,35.788983,140.328608,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,32_1,文化会館,35.790504,140.322554,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,33_1,ウイング土屋,35.793360,140.324874,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,34_1,関戸入口,35.795273,140.327229,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,35_1,下金山入口,35.800281,140.322457,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,36_1,下金山,35.801582,140.324705,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,37_1,和田,35.799752,140.329405,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,38_1,藤ヶ谷入口,35.798484,140.331448,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,39_1,成田メモリアルパーク,35.803736,140.332535,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,40_1,赤荻十字路,35.806757,140.332159,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,41_1,赤荻保育園,35.807851,140.332843,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,42_1,芦田入口,35.815355,140.334120,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,43_1,ゴルフ場入口,35.815886,140.335783,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,44_1,西和泉入口,35.817507,140.338239,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,45_1,西和泉十字路,35.818642,140.340109,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,46_1,熊野神社,35.821100,140.339227,okx,okx,日赤病院,9:45,14:22,277
+naritacity,narita-community-bus,47_1,大生入口,35.826506,140.339253,okx,okx,日赤病院,9:45,14:22,277
+naritacity,narita-community-bus,48_1,いずみ聖地公園,35.824181,140.341957,okx,okx,日赤病院,9:45,14:22,277
+naritacity,narita-community-bus,49_1,東和泉青年館,35.821737,140.343400,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,50_1,東和泉坂下,35.822000,140.346989,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,51_1,成毛入口,35.823649,140.349615,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,52_1,成毛,35.823528,140.352761,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,53_1,土室十字路,35.825769,140.360330,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,54_1,久住パークゴルフ場前,35.831021,140.358147,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,55_1,久住公民館入口,35.835736,140.353689,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,56_1,久住中学校前,35.835358,140.341357,okx,okx,日赤病院,8:09,16:27,498
+naritacity,narita-community-bus,57_1,久住駅前,35.832323,140.338637,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,58_1,高崎,35.837453,140.361323,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,59_1,祥鳳院,35.840022,140.365472,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,60_1,土室,35.836741,140.367846,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,61_1,土室中央,35.834954,140.367121,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,62_1,大室青年館,35.838087,140.375709,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,63_1,大室淡島,35.837599,140.379876,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,64_1,大室高台,35.837220,140.382192,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,65_1,芝地蔵前,35.835738,140.386522,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,66_1,新橋,35.833747,140.387548,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,67_1,古内,35.830404,140.386981,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,68_1,稲荷前,35.825673,140.384230,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,69_1,竜面,35.820026,140.381499,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,70_1,竜面共同利用施設,35.812760,140.380822,ok,ok,日赤病院,8:09,16:27,498
+naritacity,narita-community-bus,71_1,成田苑,35.816941,140.385897,ok,ok,日赤病院,8:09,16:27,498
+naritacity,narita-community-bus,72_1,大室第２,35.815821,140.377859,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,73_1,駒返し,35.818892,140.371338,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,74_1,小泉,35.818179,140.367142,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,75_1,小泉中央,35.815390,140.365298,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,76_1,小泉坂下,35.813726,140.364553,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,77_1,小泉坂上,35.810429,140.362113,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,78_1,小泉南,35.808588,140.360740,ok,ok,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,79_1,赤荻,35.807432,140.331090,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,80_1,中郷公民館,35.808980,140.329120,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,81_1,古内,35.810379,140.322125,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,82_1,弁天堂前,35.810708,140.318975,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,83_1,新妻,35.812410,140.317082,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,84_1,北新妻,35.815631,140.317023,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,85_1,海老川入口,35.819108,140.320736,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,86_1,海老川,35.820611,140.322679,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,87_1,古市場,35.824644,140.328326,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,88_1,荒海,35.832045,140.327675,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,89_1,久住駅入口,35.834545,140.329204,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,90_1,ＪＡ成田久住支所前,35.833039,140.336879,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,91_1,久住小学校下,35.837040,140.337915,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,92_1,磯部十字路,35.842280,140.334093,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,93_1,水掛入口,35.844900,140.334564,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,94_1,水掛,35.846927,140.336568,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,95_1,四谷共同利用施設前,35.850792,140.338061,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,96_1,四谷東,35.850739,140.343193,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,97_1,高倉入口,35.848112,140.351771,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,98_1,芙蓉邸街入口,35.847517,140.354653,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,99_1,八幡神社,35.856042,140.334861,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,100_1,西大須賀,35.861512,140.335689,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,101_1,滑河観音前,35.866451,140.341318,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,102_1,滑川新宿,35.870753,140.344127,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,103_1,成田市役所下総支所,35.875271,140.348881,noreturn,oneway,日赤病院,12:25,8:37,
+naritacity,narita-community-bus,104_1,滑河駅前,35.876924,140.347851,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,105_1,薬師堂,35.782570,140.315739,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,106_1,郷部橋,35.784435,140.312869,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,107_1,郷部南,35.784227,140.308810,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,108_1,押畑坂下,35.800355,140.312841,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,109_1,押畑坂上（成田病院入口）,35.803178,140.311806,hub,hub,押畑坂上（成田病院入口）,,,
+naritacity,narita-community-bus,110_1,押畑大坂,35.806874,140.311948,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,111_1,宝田小橋,35.810412,140.312650,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,112_1,親作,35.812926,140.309053,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,113_1,桜谷津,35.815076,140.306930,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,114_1,宝田白井,35.818356,140.305032,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,115_1,宝田小坂,35.820660,140.302687,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,116_1,下福田,35.824162,140.301212,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,117_1,長沼入口,35.828553,140.302143,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,118_1,長沼,35.833559,140.304582,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,119_1,長沼保育園,35.836433,140.304676,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,120_1,長沼坂上,35.838669,140.304118,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,121_1,堺松,35.841854,140.299536,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,122_1,宮下,35.841273,140.295236,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,123_1,区民会館入口,35.843019,140.291272,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,124_1,常蓮寺前,35.847861,140.292407,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,125_1,ＪＡ成田市豊住支所前,35.850081,140.295035,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,126_1,北部共同利用施設前,35.852404,140.296924,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,127_1,北羽鳥交差点,35.855033,140.298232,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,128_1,空仕前,35.858774,140.295032,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,129_1,竜台入口,35.860391,140.290863,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,130_1,竜台車庫,35.861933,140.286357,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,131_1,十日川排水機場前,35.861885,140.308751,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,132_1,安西共同利用施設前,35.861012,140.313623,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,133_1,安西,35.860968,140.316664,ok,ok,日赤病院,7:28,17:33,605
+naritacity,narita-community-bus,134_1,抱松共同利用前,35.848365,140.360445,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,135_1,須賀神社前,35.850831,140.360728,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,136_1,新宿入口,35.853163,140.360370,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,137_1,芦ケ場団地,35.851404,140.365739,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,138_1,日豊団地入り口,35.850662,140.370628,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,139_1,ビバランド入口,35.847262,140.375366,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,140_1,成井村中,35.846210,140.382716,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,141_1,成井回転場,35.844794,140.385195,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,142_2,地蔵原新田,35.842959,140.393373,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,143_1,中野原,35.849987,140.392393,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,144_1,三和,35.852425,140.394633,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,145_1,倉水,35.852598,140.384389,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,146_1,青山新田十字路,35.854990,140.380646,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,147_1,御林・フジクラ入口,35.858905,140.376873,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,148_1,外記林入口,35.861264,140.371593,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,149_1,七沢入口,35.862370,140.368541,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,150_1,下総みどり学園脇,35.863063,140.364520,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,151_1,三ツ矢団地前,35.857930,140.361612,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,152_1,小御門神社前,35.856758,140.358491,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,153_1,下総高校前,35.858704,140.357958,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,154_1,大菅,35.861203,140.351529,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,155_1,下総運動公園,35.874158,140.355855,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,156_1,下総郵便局,35.875217,140.350936,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,157_1,下総支所下,35.875416,140.348054,ok,okx,日赤病院,8:09,17:33,564
+naritacity,narita-community-bus,158_1,高岡交差点,35.877100,140.354362,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,159_1,高岡運動施設前,35.881374,140.361762,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,160_1,大和田竜安寺入口,35.881797,140.365421,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,161_1,小野,35.877451,140.370125,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,162_1,冬父入口,35.873016,140.375257,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,163_1,中里入口,35.870374,140.378071,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,164_1,しもふさ学園入口,35.865250,140.381863,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,165_1,青山入口,35.863303,140.385632,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,166_1,青山・倉水入口,35.861096,140.386955,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,167_1,名木常福寺前,35.874068,140.392556,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,168_1,旧名木小前,35.876334,140.391592,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,169_1,名木坂下,35.880953,140.387101,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,170_1,高・つつじヶ丘,35.884374,140.381506,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,171_1,高青年館入口,35.883746,140.376083,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,172_1,野馬込,35.894709,140.373115,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,173_1,小浮［島］,35.897072,140.367969,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,174_1,小浮［下］,35.894261,140.360503,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,175_1,小浮［上］,35.892466,140.358021,noreturn,oneway,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,176_1,こすもす苑,35.873901,140.343382,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,177_1,新川下通り,35.862428,140.321857,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,178_2,新川揚水機場前,35.863367,140.324587,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,179_1,滑川川岸,35.866971,140.334011,noreturn,noreturn,日赤病院,12:25,12:47,
+naritacity,narita-community-bus,180_1,吉倉入口,35.778843,140.333845,ok,ok,日赤病院,8:22,17:33,551
+naritacity,narita-community-bus,181_1,吉倉共同利用施設,35.776722,140.338497,ok,ok,日赤病院,8:22,17:33,551
+naritacity,narita-community-bus,182_1,さくらの山,35.775535,140.362959,ok,ok,日赤病院,8:22,17:33,551
+naritacity,narita-community-bus,183_1,駒井野,35.779799,140.372576,ok,ok,日赤病院,8:22,17:33,551
+naritacity,narita-community-bus,184_1,新取香橋,35.777327,140.375828,ok,ok,日赤病院,8:22,17:33,551
+naritacity,narita-community-bus,185_1,取香,35.780394,140.383383,ok,ok,日赤病院,8:22,17:33,551
+naritacity,narita-community-bus,186_1,天神峰,35.784295,140.389823,ok,ok,日赤病院,8:22,17:33,551
+naritacity,narita-community-bus,187_1,東峰,35.783844,140.394175,ok,ok,日赤病院,8:22,17:33,551
+naritacity,narita-community-bus,188_1,成田市場,35.790607,140.395024,ok,ok,日赤病院,8:22,17:33,551
+naritacity,narita-community-bus,189_1,新田南,35.791450,140.396607,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,190_1,川上入口,35.788364,140.405727,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,191_1,川上,35.789382,140.408436,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,192_1,多良貝,35.791291,140.411872,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,193_1,多良貝駐在所,35.794962,140.416115,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,194_1,前林入口,35.799139,140.421691,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,195_1,前林坂下,35.801638,140.427422,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,196_1,前林小学校,35.800817,140.433702,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,197_1,大松,35.799895,140.439933,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,198_1,道祖神,35.799317,140.444364,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,199_1,城山入口,35.805585,140.443884,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,200_1,官林,35.808035,140.445424,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,201_1,公会堂前,35.811307,140.447748,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,202_1,新木戸,35.813834,140.454031,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,203_1,北の台,35.821316,140.456395,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,204_1,大沼入口,35.824432,140.457494,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,205_1,伊地山入口,35.828072,140.458121,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,206_1,東ノ台,35.834799,140.456423,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,207_1,桜田,35.840275,140.455071,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,208_1,桜田権現前,35.842439,140.455053,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,209_1,市場入口,35.792544,140.396347,ok,ok,大栄診療所,9:17,19:30,613
+naritacity,narita-community-bus,210_1,八坂神社前,35.795062,140.397122,ok,ok,大栄診療所,9:17,19:30,613
+naritacity,narita-community-bus,211_1,新田中央,35.797151,140.397723,ok,ok,大栄診療所,9:17,19:30,613
+naritacity,narita-community-bus,212_1,水の上西,35.803536,140.400678,ok,ok,大栄診療所,9:17,19:30,613
+naritacity,narita-community-bus,213_1,水の上中央,35.807050,140.404294,ok,ok,大栄診療所,9:17,19:30,613
+naritacity,narita-community-bus,214_1,水の上,35.809807,140.407139,ok,ok,大栄診療所,9:17,19:30,613
+naritacity,narita-community-bus,215_1,にっぽり団地,35.811995,140.408119,ok,ok,大栄診療所,9:17,19:30,613
+naritacity,narita-community-bus,216_1,大栄ニュータウン入口,35.815899,140.410194,ok,ok,大栄診療所,9:17,19:30,613
+naritacity,narita-community-bus,217_1,大栄診療所,35.823253,140.412138,hub,hub,大栄診療所,,,
+naritacity,narita-community-bus,218_2,Ｂ＆Ｇ海洋センター前,35.817053,140.420553,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,219_1,大栄支所,35.831707,140.418305,ok,ok,日赤病院,8:22,17:33,551
+naritacity,narita-community-bus,220_1,伊能,35.837744,140.429015,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,221_1,奈土入口,35.846971,140.421124,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,222_1,奈土,35.849474,140.421635,okx,okx,日赤病院,10:44,17:33,409
+naritacity,narita-community-bus,223_1,津富浦小前,35.830413,140.413214,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,224_1,津富浦,35.835016,140.408200,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,225_1,木浦,35.838847,140.411832,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,226_1,久井崎坂下,35.844376,140.411995,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,227_1,久井崎坂上,35.849892,140.409924,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,228_1,リバティヒル中央,35.854783,140.406649,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,229_1,リバティヒル入口,35.851944,140.406880,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,230_1,古原入口,35.853969,140.403215,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,231_1,地蔵原,35.852990,140.397216,ok,ok,大栄診療所,7:35,14:51,436
+naritacity,narita-community-bus,232_1,公津の杜２丁目,35.761583,140.300700,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,233_1,公津の杜駅,35.761016,140.296018,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,234_1,公津の杜１丁目,35.763047,140.295977,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,235_1,公津分署前,35.763582,140.294614,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,236_1,宗吾霊堂大型駐車場前,35.760929,140.280234,noreturn,none,日赤病院,17:33,14:40,
+naritacity,narita-community-bus,237_1,公津小学校,35.767063,140.282296,noreturn,none,日赤病院,17:33,14:40,
+naritacity,narita-community-bus,238_1,農協前,35.762124,140.276339,okx,okx,日赤病院,7:45,14:40,415
+naritacity,narita-community-bus,239_1,宗吾霊堂,35.760168,140.279603,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,240_1,宗吾台,35.757149,140.276971,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,241_1,下方内野,35.758764,140.269814,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,242_1,下方鷺田,35.762069,140.266217,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,243_1,下方宿,35.767804,140.267071,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,244_1,下方根古屋,35.765599,140.270681,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,245_1,下方入口,35.763812,140.276276,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,246_1,麻賀多神社,35.770639,140.275731,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,247_1,旧宅入口,35.771256,140.273265,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,248_1,台方,35.772217,140.271307,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,249_1,江川,35.774735,140.267079,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,250_1,養魚場,35.778428,140.265391,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,251_1,船形入口,35.782585,140.263383,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,252_1,北須賀,35.784083,140.261529,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,253_1,北須賀中央,35.786124,140.262597,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,254_1,和田,35.788657,140.265155,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,255_1,印東体育館,35.786448,140.267129,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,256_1,北須賀東,35.790761,140.265180,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,257_1,甚兵衛機場,35.793016,140.263825,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,258_1,北須賀西,35.791890,140.260991,ok,ok,日赤病院,7:45,18:24,639
+naritacity,narita-community-bus,259_1,甚兵衛渡し,35.787731,140.255880,ok,ok,日赤病院,7:45,18:24,639

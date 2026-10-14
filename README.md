@@ -91,6 +91,22 @@ weekend counts.
   print dialog opens once the tiles have loaded. Afterwards the map returns to its size and view on screen.
 - Emptying the From or To box clears that stop, its result and its part of the link.
 
+## 全国版 / All of Japan
+
+**[全国版](https://munimv2.github.io/kaerimichi/national.html)**: アプリと同じ計算（`gtfs.js`）を、GTFSデータリポジトリの全データに当てはめました。
+病院名の停留所があり対象日に運行する394件のデータで、平日に発車がある53,554か所の停留所それぞれについて、
+「病院名の停留所へ行って30分以上いて、その日のうちに戻ってこられるか」を判定しています。
+
+- 2026年10月21日（水）: **84.0%**（45,007か所）、10月24日（土）: **63.3%**（33,881か所）
+- データごとの割合の中央値は98.6%。平日は往復できるのに土曜はできないデータが97件、土曜に運行がないデータが78件。
+- 都道府県別・データ別の表、停留所ごとの地図、CSV（CC BY 4.0）: [data/national/2026-10-21/](data/national/2026-10-21/)（方法と限界はそのREADME）。集計スクリプト: `tools/national_gaps.mjs`（Apache-2.0）。
+
+**All of Japan:** the same round-trip check, run by `tools/national_gaps.mjs` over 394 open feeds (53,554 stops with a weekday
+departure): on Wednesday 2026-10-21, 84.0% of stops can reach a hospital-named stop, stay 30 minutes and get back the same day;
+on Saturday 2026-10-24, 63.3%. 97 feeds allow it on the weekday but not on Saturday. Tables, a per-stop map and CSVs
+(CC BY 4.0): [national.html](https://munimv2.github.io/kaerimichi/national.html?lang=en) and
+[data/national/2026-10-21/](data/national/2026-10-21/), whose README gives the method and its limits.
+
 ## データ / Data
 
 - 全国の事業者が公開する [GTFSデータリポジトリ](https://gtfs-data.jp/) のGTFS / GTFS-JPデータ（約600件）を、ブラウザから直接読み込みます。
@@ -116,10 +132,13 @@ Feeds come from the GTFS Data Repository (Japan), the ODPT Open Data Center (dem
   copy/print tools (print layouts are CSS in `index.html`: `body.print-card` and `body.print-map`; the map print also resizes
   the Leaflet map first).
   Shareable URLs: `?feed=org/feed&date=YYYY-MM-DD&from=stop_id&to=stop_id&stay=60&transfer=0&map=gap&flex=goshogawara&lang=en`.
+- `national.html` / `national.js`: the All of Japan page; `tools/`: the national analysis (one Node.js process per feed, so a
+  feed that runs out of memory or time is recorded and skipped).
 - No build step and no server: open `index.html` from any static host.
 - Tests: `python test_kaerimichi.py` checks the wiring (imports, element ids, every UI text in both languages, the demand-responsive list,
   a print layout for every print button, the map's print size, the stay in the link) and, with Node.js installed, runs `test_gtfs.mjs`
   (a small made-up network with a known answer for every kind of stop, plus a GTFS-Flex zone with a hole and a stop-group trip).
+  `python test_national.py` checks the national page and tools (and runs their Node.js tests).
 
 ## 注意 / Notes
 
