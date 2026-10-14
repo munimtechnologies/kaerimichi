@@ -32,6 +32,31 @@ def test_app_element_ids_exist_in_html():
         assert i in ids, "index.html has no element #" + i
 
 
+def test_text_keys_in_both_languages():
+    app = read("app.js")
+    ja = app[app.index("\n  ja: {"):app.index("\n  en: {")]
+    en = app[app.index("\n  en: {"):app.index("\n};", app.index("\n  en: {"))]
+    data_keys = set(re.findall(r'data-(?:t|ph)="(\w+)"', read("index.html")))
+    used = set(re.findall(r"(?<![\w.$])t\.(\w+)", app)) | data_keys
+    for key in sorted(used):
+        for name, block in (("ja", ja), ("en", en)):
+            assert re.search(r"\b" + key + r"\s*:", block), "TEXT." + name + " has no key " + key
+
+
+def test_flex_feeds():
+    app = read("app.js")
+    block = app[app.index("const FLEX_FEEDS = ["):app.index("];", app.index("const FLEX_FEEDS = ["))]
+    ids = re.findall(r"\{ id: '([\w-]+)'", block)
+    assert len(ids) == len(set(ids)) >= 10
+    for url in re.findall(r"url: ([^,]+),", block):
+        assert url.startswith("ODPT_DEMAND + '") or url.startswith("API + '"), url
+    feeds = HERE / "feeds.txt"
+    if feeds.exists():
+        keys = {"/".join(line.split("|")[:2]) for line in feeds.read_text(encoding="utf-8").splitlines() if line and not line.startswith("#")}
+        for bus in re.findall(r"bus: '([^']+)'", block):
+            assert bus in keys, "feeds.txt has no " + bus
+
+
 def test_version_constant():
     assert re.search(r"const VERSION = '\d+\.\d+'", read("app.js"))
 
