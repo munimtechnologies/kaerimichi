@@ -19,6 +19,7 @@ GTFSデータリポジトリ（https://gtfs-data.jp/ ）で公開されている
 - findings.md: 割合の低いデータ、平日と土曜の差の大きいデータ、都道府県別の表
 - summary.json: 設定と全国の合計
 - sensitivity/: 病院名の停留所の一覧（平日・土曜の便数つき）と、歯科医院・動物病院を除いた場合の感度分析（下記）
+- kuhaku/: 国土交通省の「交通空白」リスト（2026）と、この判定の市区町村ごとの突き合わせ（下記）
 
 ## 方法
 
@@ -50,12 +51,20 @@ tools/hospital_sensitivity.mjs を同じ日付で2026-10-14に実行した結果
 - 歯科医院・動物病院を除くと病院の停留所3か所が変わるデータは20件で、病院の停留所が無くなるデータはありません。この20件の合計は、元の方法で2,646か所中2,251か所（土曜1,700）、除いた方法で2,654か所中2,256か所（土曜1,702）が往復できます。全国の割合は小数第1位まで変わりません（84.0%・63.3%）。
 - 個々のデータでは差が出ます: 北名古屋市「きたバス」100%→74.3%（歯科医院前の停留所が3か所目の病院の停留所になっていて、そこへの往復だけで「往復できる」と判定されていた停留所が多かった）、塩尻市「すてっぷくん」87.8%→94.2%（歯科医院の代わりにまつもと医療センターが3か所目になった）、郡上市59.3%→60.8%、鶴岡市の土曜26.6%→27.3%。
 
+## 国土交通省「交通空白」リストとの突き合わせ（kuhaku/）
+
+tools/kuhaku_crosscheck.py を2026-10-15に実行した結果です（詳しくは kuhaku/README.md）。国土交通省が公表した交通空白地区の一覧（1,741市区町村、2,740地区）を読み取り、停留所を市区町村に割り当てて比べました。
+
+- 比べられる453市区町村（停留所10か所以上）で、平日に往復できる割合の中央値は、交通空白地区を挙げた市区町村 95.9%、挙げていない市区町村 98.3%。差は小さく（無作為の1組で地区ありの方が低い確率 0.56、p = 0.025）、地区の数とはほぼ無関係です（スピアマン −0.07）。
+- 地区を挙げた254市区町村のうち136では、分析した停留所の95%以上で往復できます。自治体の挙げる交通空白の多くは、停留所が近くにない場所や病院以外の用事の問題と考えられ、停留所ごとの時刻表の判定とは別のものを測っています。
+- 割合が50%未満なのに地区を挙げていない12市区町村の多くは、広い地域を走るデータの病院の停留所が別の市にあるためで、そのまま「見落とし」とは読めません。
+
 ## 出典とライセンス
 
 データ: GTFSデータリポジトリと、feeds.csv に記載の各データの提供者（ライセンスは各行の license 列、多くは CC BY 4.0）。本データはそれらを加工して作成しました。
 この集計（CSV・JSON・本文）は CC BY 4.0、集計スクリプト（tools/）は Apache-2.0 です。
 
-制作: MV2 of Munim, Inc.（munimversion2@gmail.com）。この分析はMV2の名のもと、AIエージェントが作成しました。
+制作: MV2 of Munim, Inc.（mv2@munimtech.com）。この分析はMV2の名のもと、AIエージェントが作成しました。
 
 ---
 
@@ -97,6 +106,16 @@ feeds, 2,251 of 2,646 stops round-trip with the original method (Saturday 1,700)
 100% → 74.3% (a stop in front of a dentist was the third hospital stop, and many stops could round-trip only to it), Shiojiri's
 Step-kun 87.8% → 94.2% (Matsumoto Medical Center takes the dentist's place), Gujo 59.3% → 60.8%, Tsuruoka on Saturday 26.6% → 27.3%.
 
+**MLIT's transport-gap list vs this check (kuhaku/):** tools/kuhaku_crosscheck.py, run on 2026-10-15 (details in
+kuhaku/README.md). It reads MLIT's 2026 list of self-reported transport-gap districts (1,741 municipalities, 2,740 districts)
+and places every stop in its municipality. Across the 453 municipalities with at least ten analysed stops, the median weekday
+share is 95.9% where a gap district was listed and 98.3% where none was: a small difference (a random listed municipality is
+lower than a random unlisted one 56% of the time, p = 0.025), and the number of districts is almost unrelated to the share
+(Spearman −0.07). In 136 of the 254 listed municipalities at least 95% of analysed stops allow the round trip, so the listed
+gaps mostly measure something a per-stop timetable check cannot see (places with no stop nearby, needs other than the
+hospital). Most of the 12 municipalities with a share below 50% and no listed district are served by wide-area feeds whose
+hospital stops are in another town, so they are places to check, not missed gaps.
+
 Data: the GTFS Data Repository and each feed's publisher, under the licence in each row of feeds.csv (mostly CC BY 4.0),
 processed by MV2. This dataset is CC BY 4.0; the scripts are Apache-2.0. Made by MV2 of Munim, Inc.
-(munimversion2@gmail.com) with AI agents working in MV2's name.
+(mv2@munimtech.com) with AI agents working in MV2's name.

@@ -1,0 +1,62 @@
+{
+ "list": {
+  "source": "https://www.mlit.go.jp/sogoseisaku/transport/content/002005736.pdf",
+  "rows": 1741,
+  "answered": 1705,
+  "districts_sum": 2740,
+  "districts_total_line": 2740,
+  "municipalities_with_gap": 892,
+  "prefecture_total_rows": 47
+ },
+ "boundaries": {
+  "source": "https://raw.githubusercontent.com/smartnews-smri/japan-topography/main/data/municipality/geojson/s0010/N03-21_210101.json",
+  "features": 1906,
+  "municipalities": 1750
+ },
+ "stops": {
+  "rows": 57765,
+  "counted": 53554
+ },
+ "assign": {
+  "inside": 57621,
+  "nearest": 143,
+  "none": 1
+ },
+ "unmatched_list_names": [],
+ "stop_municipalities_not_in_list": [],
+ "compare": {
+  "min_stops": 10,
+  "municipalities_in_list": 1741,
+  "answered": 1705,
+  "with_any_stop": 618,
+  "usable": 453,
+  "weekday": {
+   "n_listed": 254,
+   "n_not_listed": 199,
+   "median_listed": 0.959,
+   "mean_listed": 0.817,
+   "median_not_listed": 0.983,
+   "mean_not_listed": 0.857,
+   "mann_whitney_u": 22262.0,
+   "p_value": 0.024683957635343926,
+   "prob_listed_lower": 0.56
+  },
+  "saturday": {
+   "n_listed": 254,
+   "n_not_listed": 199,
+   "median_listed": 0.718,
+   "mean_listed": 0.6,
+   "median_not_listed": 0.85,
+   "mean_not_listed": 0.667,
+   "mann_whitney_u": 22438.5,
+   "p_value": 0.03864868276916772,
+   "prob_listed_lower": 0.556
+  },
+  "spearman_share_vs_districts": -0.06711708302499128,
+  "spearman_share_vs_gap_pop": -0.08511232365576066,
+  "low_share_no_listed_gap": 12,
+  "full_share_listed_gap": 136
+ },
+ "prefecture_spearman_districts": -0.21663326964225035,
+ "generated_at": "2026-10-15T07:52:22Z"
+}

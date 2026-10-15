@@ -1,0 +1,13 @@
+﻿pref,name,answered,districts,implementing,preparing,considering,pop_k,area_km2,monitor_districts,monitor_pop_k,monitor_area_km2,in_plan,stops,round_trip,share,share_sat,feeds
+山形県,朝日町,True,0,0,0,0,0,0,0,0,0,False,58,0,0.0,0.379,yamagata-asahitown/AsahiTown／yamakobus/YAMAKOBUS
+福岡県,みやこ町,True,0,0,0,0,0,0,0,0,0,False,30,0,0.0,0.1,taiyo-koutu/taiyo-koutu
+熊本県,錦町,True,0,0,0,0,0,0,0,0,0,False,34,0,0.0,0.0,sankobus/sankobus
+熊本県,五木村,True,0,0,0,0,0,0,0,0,0,False,14,0,0.0,0.0,sankobus/sankobus
+山形県,大石田町,True,0,0,0,0,0,0,0,0,0,False,11,1,0.091,0.091,obanazawacity/ObanazawaCity／yamakobus/YAMAKOBUS
+熊本県,水俣市,True,0,0,0,0,0,0,0,0,0,False,189,25,0.132,0.132,sankobus/sankobus
+愛知県,大府市,True,0,0,0,0,0,0,0,0,0,False,29,4,0.138,0.138,chitabus/chitabus／higashiuratown/communitybus／tokaicity/tokai-ranranbus
+福島県,富岡町,True,0,0,0,0,0,0,0,0,0,False,24,4,0.167,0.0,shinjobankotsu/SHINJOBANKOTSU
+滋賀県,大津市,True,0,0,0,0,0,0,0,0,0,False,12,2,0.167,0.167,kokacity/sinaicommunitybus／takashimacity/takasimasicommunitybus
+高知県,大川村,True,0,0,0,0,0,0,0,0,0,False,29,5,0.172,0.172,reihoku-kanko/GTFS-Reihokukanko_Localbus
+青森県,今別町,True,0,0,0,0,0,0,0,0,0,False,16,3,0.188,0.0,jr-east-morioka/JReast_wandotaxi／sotogahamatown/sotogahama-townbus
+熊本県,荒尾市,True,0,0,0,0,0,0,0,0,0,False,119,24,0.202,0.202,sankobus/sankobus

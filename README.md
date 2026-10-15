@@ -114,6 +114,8 @@ weekend counts.
 
 **病院名の停留所の一覧と感度分析**（[data/national/2026-10-21/sensitivity/](data/national/2026-10-21/sensitivity/)）: 運行のある514件のデータにある病院名の停留所1,503か所（うち歯科医院・動物病院36か所）を、平日と土曜の便数つきで一覧にしました。平日に便がある1,454か所のうち386か所（26.5%）には土曜の便がありません。病院名の停留所に平日の便がある396件のうち97件では、土曜はどの病院名の停留所にも便がありません。歯科医院・動物病院を除いても病院の停留所3か所が変わるデータは20件だけで、全国の割合（84.0%・63.3%）は変わりません（変わった20件の合計: 2,646か所中2,251か所 → 2,654か所中2,256か所）。ただし個々のデータでは差が出ます（北名古屋市「きたバス」100%→74.3%、塩尻市「すてっぷくん」87.8%→94.2%）。スクリプト: `tools/hospital_sensitivity.mjs`。
 
+**国土交通省「交通空白」リストとの突き合わせ**（[data/national/2026-10-21/kuhaku/](data/national/2026-10-21/kuhaku/)）: 国土交通省が2026年に公表した交通空白地区の一覧（1,741市区町村・2,740地区、自治体の自己申告）を読み取り、停留所を市区町村に割り当てて、この判定と比べました。停留所が10か所以上ある453市区町村で、平日に往復できる割合の中央値は、交通空白地区を挙げた市区町村95.9%、挙げていない市区町村98.3%。差は小さく（無作為の1組で地区ありの方が低い確率0.56）、地区の数とはほぼ無関係です（スピアマン −0.07）。地区を挙げた254市区町村のうち136では停留所の95%以上で往復できます。自治体の挙げる交通空白の多くは、停留所が近くにない場所など、停留所ごとの時刻表では見えないものだと考えられます。スクリプト: `tools/kuhaku_crosscheck.py`。
+
 **All of Japan:** the same round-trip check, run by `tools/national_gaps.mjs` over 394 open feeds (53,554 stops with a weekday
 departure): on Wednesday 2026-10-21, 84.0% of stops can reach a hospital-named stop, stay 30 minutes and get back the same day;
 on Saturday 2026-10-24, 63.3%. 97 feeds allow it on the weekday but not on Saturday. Tables, a per-stop map and CSVs
@@ -127,6 +129,14 @@ weekday bus to a hospital-named stop, no such stop has a Saturday bus. Leaving d
 hospital stops in only 20 feeds and leaves the national shares (84.0% / 63.3%) unchanged (in those 20 feeds: 2,251 of 2,646
 stops → 2,256 of 2,654), but single feeds do move (Kita-Nagoya's Kita Bus 100% → 74.3%, Shiojiri's Step-kun 87.8% → 94.2%).
 Script: `tools/hospital_sensitivity.mjs`.
+
+**MLIT's transport-gap list vs the timetables** ([data/national/2026-10-21/kuhaku/](data/national/2026-10-21/kuhaku/)): MLIT's
+2026 list of self-reported transport-gap (交通空白) districts (1,741 municipalities, 2,740 districts), read from its PDF and
+joined with this check by placing every stop in its municipality. In the 453 municipalities with at least ten analysed stops,
+the median weekday share is 95.9% where a gap district was listed and 98.3% where none was: a small difference (a random listed
+municipality is lower than a random unlisted one 56% of the time), and the number of districts is almost unrelated to the share
+(Spearman −0.07). In 136 of the 254 listed municipalities at least 95% of analysed stops allow the round trip, so the listed gaps
+mostly concern what a per-stop timetable check cannot see, such as places with no stop nearby. Script: `tools/kuhaku_crosscheck.py`.
 
 ## データ / Data
 
@@ -154,14 +164,16 @@ Feeds come from the GTFS Data Repository (Japan), the ODPT Open Data Center (dem
   the Leaflet map first).
   Shareable URLs: `?feed=org/feed&date=YYYY-MM-DD&from=stop_id&to=stop_id&stay=60&transfer=0&map=gap&flex=goshogawara&lang=en`.
 - `national.html` / `national.js`: the All of Japan page; `tools/`: the national analysis (one Node.js process per feed, so a
-  feed that runs out of memory or time is recorded and skipped) and the hospital-stop sensitivity check
-  (`hospital_sensitivity.mjs`, `hospital_names.mjs`, `sens_worker.mjs`).
+  feed that runs out of memory or time is recorded and skipped), the hospital-stop sensitivity check
+  (`hospital_sensitivity.mjs`, `hospital_names.mjs`, `sens_worker.mjs`) and the comparison with MLIT's transport-gap list
+  (`kuhaku_crosscheck.py`, Python 3.12 with pdfplumber, shapely and scipy).
 - No build step and no server: open `index.html` from any static host.
 - Tests: `python test_kaerimichi.py` checks the wiring (imports, element ids, every UI text in both languages, the demand-responsive list,
   a print layout for every print button, the map's print size, the stay in the link) and, with Node.js installed, runs `test_gtfs.mjs`
   (a small made-up network with a known answer for every kind of stop, plus a GTFS-Flex zone with a hole and a stop-group trip).
   `python test_national.py` checks the national page and tools (and runs their Node.js tests, including the sensitivity check
-  on a made-up feed with a dentist's stop).
+  on a made-up feed with a dentist's stop). `python tools/test_kuhaku_crosscheck.py` tests the list parser, municipality
+  matching and statistics on made-up rows.
 
 ## 注意 / Notes
 
@@ -169,7 +181,5 @@ Feeds come from the GTFS Data Repository (Japan), the ODPT Open Data Center (dem
 
 ## About
 
-Made by MV2 of Munim, Inc. — contact: munimversion2@gmail.com.
+Made by MV2 of Munim, Inc. — contact: mv2@munimtech.com.
 This app was built by AI agents working in MV2's name. Questions about the app go to the address above, not to the transit operators.
-
-License: Apache-2.0.
