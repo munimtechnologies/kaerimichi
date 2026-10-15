@@ -54,9 +54,13 @@ v0.5から、凡例の下の**集計をコピー**で、行き先・日付・条
 
 v0.6: 共有URLに「目的地での最低滞在」が入るようになりました（コピーした往復メモのURLを開くと、同じ滞在時間で開きます。言語の切り替えでも保たれます）。地図の印刷では、町のすべての停留所が入るように地図を合わせてから印刷画面を開くため、地図が途中で切れなくなりました。出発・行き先の欄を空にすると、その停留所の選択が解除されます。
 
+v0.7: 「病院」ボタンの候補から歯科医院・動物病院を外しました（停留所名に「歯科」「動物病院」「獣医」を含むもの）。これまでは名前のパターンがこれらにも一致し、町によっては歯科医院の停留所が「病院」の候補の上位に出ていました。また、別の県の路線バスを開いたまま「5. デマンド交通を重ねる」で町のデマンド交通を選ぶと、1.の路線データもその町の路線バスに切り替わるようにしました（同じ県の別の事業者のバスを開いているときは、そのまま重ねます）。コピーした文面と印刷に入るリンクは、表示中の言語のまま開くようになりました。
+
 ### デマンド交通（v0.4）
 
 公共交通オープンデータセンターが「公共交通オープンデータチャレンジ2026」に合わせて公開した、全国14自治体・16件のデマンド交通データ（GTFS-Flex、CC BY 4.0、多くはチャレンジ期間中の限定公開）を一覧から選べます。同じ町の路線バスがGTFSデータリポジトリにある場合（五所川原市、平川市、安中市、瑞穂町、紀の川市、宗像市）は、路線バスも一緒に読み込みます。ほかのGTFS-Flexのzipも開けます。
+
+![デマンド交通を重ねた交通空白マップ: 瑞穂町コミュニティバスと「チョイソコみずほまち」、病院前への日帰り往復（2026年10月14日）](docs/readme-flex-ja.png)
 
 - 区域（`locations.geojson` のポリゴン）の中、または乗降ポイント（`location_groups.txt` / `location_group_stops.txt`、時間帯つきの停留所）から300m以内のバス停を「区域内」とみなします。
 - 停留所から行き先へ乗れる便（乗車できる区域→同じか後の降車できる区域）と、行き先から停留所へ戻る便が、その日の運行時間帯にあり、最低滞在時間が収まれば「往復できる見込み」とします。
@@ -84,12 +88,19 @@ weekend counts.
   weekly comparison and the link; "Print the map and counts" prints the legend with the map, for planning meetings.
 - **About transport gaps:** a short note in the legend on MLIT's 交通空白 policy and what this map does and doesn't decide.
 
-**New in v0.6:**
+**v0.6:**
 - The minimum stay is now part of the shareable link (`stay=60`), so the link in a copied trip card, and the language switch,
   keep it. Before, they fell back to 30 minutes.
 - Printing the service-gap map no longer cuts it off: the map is given its printed size first, fitted to every stop, and the
   print dialog opens once the tiles have loaded. Afterwards the map returns to its size and view on screen.
 - Emptying the From or To box clears that stop, its result and its part of the link.
+
+**New in v0.7:**
+- The Hospital button no longer offers dentists and vets (stop names containing 歯科, 動物病院 or 獣医). The name
+  pattern used to match them too, so in some towns a dentist's stop was among the first hospital choices.
+- Picking a town's demand-responsive service while a bus network from another prefecture is open now also loads
+  that town's buses (a network from the same prefecture is kept, so a regional operator can still be overlaid).
+- The link in copied and printed text now opens in the language the text was written in.
 
 ## 全国版 / All of Japan
 
@@ -101,11 +112,21 @@ weekend counts.
 - データごとの割合の中央値は98.6%。平日は往復できるのに土曜はできないデータが97件、土曜に運行がないデータが78件。
 - 都道府県別・データ別の表、停留所ごとの地図、CSV（CC BY 4.0）: [data/national/2026-10-21/](data/national/2026-10-21/)（方法と限界はそのREADME）。集計スクリプト: `tools/national_gaps.mjs`（Apache-2.0）。
 
+**病院名の停留所の一覧と感度分析**（[data/national/2026-10-21/sensitivity/](data/national/2026-10-21/sensitivity/)）: 運行のある514件のデータにある病院名の停留所1,503か所（うち歯科医院・動物病院36か所）を、平日と土曜の便数つきで一覧にしました。平日に便がある1,454か所のうち386か所（26.5%）には土曜の便がありません。病院名の停留所に平日の便がある396件のうち97件では、土曜はどの病院名の停留所にも便がありません。歯科医院・動物病院を除いても病院の停留所3か所が変わるデータは20件だけで、全国の割合（84.0%・63.3%）は変わりません（変わった20件の合計: 2,646か所中2,251か所 → 2,654か所中2,256か所）。ただし個々のデータでは差が出ます（北名古屋市「きたバス」100%→74.3%、塩尻市「すてっぷくん」87.8%→94.2%）。スクリプト: `tools/hospital_sensitivity.mjs`。
+
 **All of Japan:** the same round-trip check, run by `tools/national_gaps.mjs` over 394 open feeds (53,554 stops with a weekday
 departure): on Wednesday 2026-10-21, 84.0% of stops can reach a hospital-named stop, stay 30 minutes and get back the same day;
 on Saturday 2026-10-24, 63.3%. 97 feeds allow it on the weekday but not on Saturday. Tables, a per-stop map and CSVs
 (CC BY 4.0): [national.html](https://munimv2.github.io/kaerimichi/national.html?lang=en) and
 [data/national/2026-10-21/](data/national/2026-10-21/), whose README gives the method and its limits.
+
+**Hospital-named stops and a sensitivity check** ([data/national/2026-10-21/sensitivity/](data/national/2026-10-21/sensitivity/)):
+every hospital-named stop in the 514 feeds with service that day (1,503 stops, 36 of them dentists or vets) with its weekday
+and Saturday service. Of the 1,454 with a weekday bus, 386 (26.5%) have no bus on Saturday; in 97 of the 396 feeds with a
+weekday bus to a hospital-named stop, no such stop has a Saturday bus. Leaving dentists and vets out changes a feed's three
+hospital stops in only 20 feeds and leaves the national shares (84.0% / 63.3%) unchanged (in those 20 feeds: 2,251 of 2,646
+stops → 2,256 of 2,654), but single feeds do move (Kita-Nagoya's Kita Bus 100% → 74.3%, Shiojiri's Step-kun 87.8% → 94.2%).
+Script: `tools/hospital_sensitivity.mjs`.
 
 ## データ / Data
 
@@ -133,12 +154,14 @@ Feeds come from the GTFS Data Repository (Japan), the ODPT Open Data Center (dem
   the Leaflet map first).
   Shareable URLs: `?feed=org/feed&date=YYYY-MM-DD&from=stop_id&to=stop_id&stay=60&transfer=0&map=gap&flex=goshogawara&lang=en`.
 - `national.html` / `national.js`: the All of Japan page; `tools/`: the national analysis (one Node.js process per feed, so a
-  feed that runs out of memory or time is recorded and skipped).
+  feed that runs out of memory or time is recorded and skipped) and the hospital-stop sensitivity check
+  (`hospital_sensitivity.mjs`, `hospital_names.mjs`, `sens_worker.mjs`).
 - No build step and no server: open `index.html` from any static host.
 - Tests: `python test_kaerimichi.py` checks the wiring (imports, element ids, every UI text in both languages, the demand-responsive list,
   a print layout for every print button, the map's print size, the stay in the link) and, with Node.js installed, runs `test_gtfs.mjs`
   (a small made-up network with a known answer for every kind of stop, plus a GTFS-Flex zone with a hole and a stop-group trip).
-  `python test_national.py` checks the national page and tools (and runs their Node.js tests).
+  `python test_national.py` checks the national page and tools (and runs their Node.js tests, including the sensitivity check
+  on a made-up feed with a dentist's stop).
 
 ## 注意 / Notes
 
