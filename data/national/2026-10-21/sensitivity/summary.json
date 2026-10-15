@@ -1,0 +1,49 @@
+{
+  "title": "Hospital-named bus stops in Japan's open GTFS feeds, and how much dentists and vets change the round-trip results",
+  "date": "2026-10-21",
+  "saturday": "2026-10-24",
+  "hospital_stop_names": "病院|医院|クリニック|診療所|医療センター",
+  "dentist_or_vet_names": "歯科|動物病院|獣医",
+  "feeds_listed": 607,
+  "skipped_by_reason": {
+    "no_service": 35,
+    "discontinued": 28,
+    "error": 2,
+    "ended": 27,
+    "flex_only": 1
+  },
+  "totals": {
+    "feeds_with_service": 514,
+    "hospital_named_stops": 1503,
+    "hospital_named_stops_dentist_or_vet": 36,
+    "served_weekday": 1454,
+    "served_weekday_no_saturday_call": 386,
+    "share_no_saturday_call": 0.265,
+    "served_weekday_excluding_dentist_vet": 1419,
+    "excluding_dentist_vet_no_saturday_call": 377,
+    "share_excluding_dentist_vet_no_saturday_call": 0.266,
+    "feeds_with_weekday_hospital_stop": 396,
+    "feeds_where_no_hospital_stop_has_a_saturday_bus": 97,
+    "feeds_whose_hubs_change": 20,
+    "feeds_left_without_hospital_stop": 0,
+    "changed_feeds_app": {
+      "base": 2646,
+      "round_trip": 2251,
+      "round_trip_sat": 1700
+    },
+    "changed_feeds_strict_kept": {
+      "feeds": 20,
+      "base": 2654,
+      "round_trip": 2256,
+      "round_trip_sat": 1702
+    },
+    "changed_feeds_lost_app": null
+  },
+  "gtfs_js": {
+    "source": "gtfs.js",
+    "sha256": "8c84ed8f0034e0cfb5f5e11dbbeb66cb6d6d27299d82abb09728472906ac13a5"
+  },
+  "generated_at": "2026-10-14T23:26:01.719Z",
+  "runtime_s": 2069,
+  "by": "MV2 of Munim, Inc. (made with AI agents working in MV2's name)"
+}

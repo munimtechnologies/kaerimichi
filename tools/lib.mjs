@@ -6,6 +6,8 @@
 export const SETTINGS = { transfers: 1, min_connection_s: 300, min_stay_s: 1800, hubs_per_feed: 3 };
 // The app's 病院 one-click destination (PRESETS in app.js).
 export const HOSPITAL = /病院|医院|クリニック|診療所|医療センター/;
+// Names the 病院 pattern also catches that are not places a patient goes for a doctor: dentists and vets.
+export const NOT_HOSPITAL = /歯科|動物病院|獣医/;
 // Best first: a stop's verdict is the best one over the feed's hospital stops.
 export const RANK = ['ok', 'okx', 'noreturn', 'oneway', 'none', 'idle'];
 export const STATUSES = ['hub', ...RANK];
@@ -54,9 +56,12 @@ export function appUrl(f, date, hubKey) {
 }
 
 // Hospital-named places that some trip calls at on the day, busiest first (as the app's 病院 button orders them).
-export function hospitalHubs(model, view) {
+// With `exclude`, names matching it are left out (NOT_HOSPITAL drops dentists and vets).
+export function hospitalHubs(model, view, exclude = null) {
   const list = [];
-  model.places.forEach((p, i) => { if (HOSPITAL.test(p.name) && view.byPlace.has(i)) list.push(i); });
+  model.places.forEach((p, i) => {
+    if (HOSPITAL.test(p.name) && !(exclude && exclude.test(p.name)) && view.byPlace.has(i)) list.push(i);
+  });
   list.sort((a, b) => (view.stat[b].n - view.stat[a].n) || (model.served[b] - model.served[a]));
   return list.slice(0, SETTINGS.hubs_per_feed);
 }
@@ -78,15 +83,19 @@ function classify(g, model, view, hubs) {
 
 // One feed (zip ArrayBuffer) on a weekday `date` and a Saturday `sat` (YYYY-MM-DD).
 // Returns {skip: reason} or the counts, shares and one row per place.
-// The base of both shares is the same set of places: those with a departure on the weekday, hubs excluded.
-export async function analyseFeed(g, buf, { date, sat }) {
+export async function analyseFeed(g, buf, { date, sat, exclude = null }) {
   const { model } = await g.loadFeed(buf);
   if (!model) return { skip: 'flex_only' };
   const view = g.dayView(model, ymd(date));
   if (!view.trips.length) return { skip: 'no_service' };
-  const hubs = hospitalHubs(model, view);
+  const hubs = hospitalHubs(model, view, exclude);
   if (!hubs.length) return { skip: 'no_hospital_stop' };
-  const satView = g.dayView(model, ymd(sat));
+  return analyseModel(g, model, view, g.dayView(model, ymd(sat)), hubs);
+}
+
+// The counts for an already loaded feed and its weekday and Saturday views, to the given hubs.
+// The base of both shares is the same set of places: those with a departure on the weekday, hubs excluded.
+export function analyseModel(g, model, view, satView, hubs) {
   const wed = classify(g, model, view, hubs);
   const weekend = classify(g, model, satView, hubs);
   const counts = Object.fromEntries(STATUSES.map(s => [s, 0]));

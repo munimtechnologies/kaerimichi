@@ -9,7 +9,9 @@ import tempfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-TOOLS = ("lib.mjs", "national_gaps.mjs", "feed_worker.mjs", "test_national_gaps.mjs")
+TOOLS = ("lib.mjs", "national_gaps.mjs", "feed_worker.mjs", "test_national_gaps.mjs",
+         "hospital_names.mjs", "hospital_sensitivity.mjs", "sens_worker.mjs", "test_sensitivity.mjs")
+NODE_TESTS = ("test_national_page.mjs", "tools/test_national_gaps.mjs", "tools/test_sensitivity.mjs")
 
 
 def read(name):
@@ -56,6 +58,20 @@ def test_page_reads_columns_the_tools_write():
         assert col in written, "national.js reads a column the tools never write: " + col
 
 
+def test_sensitivity_tools_match_lib():
+    """The sensitivity tools import only names lib.mjs exports, and its dentist/vet pattern is the app's (app.js v0.7)."""
+    lib = read("tools/lib.mjs")
+    exported = set(re.findall(r"export (?:const|function|async function) (\w+)", lib))
+    for name in ("hospital_names.mjs", "hospital_sensitivity.mjs", "test_sensitivity.mjs"):
+        src = read("tools/" + name)
+        for m in re.finditer(r"import \{([^}]*)\} from './lib.mjs'", src):
+            for imported in (n.strip() for n in m.group(1).split(",")):
+                assert imported in exported, name + " imports " + imported + " which lib.mjs does not export"
+    assert "NOT_HOSPITAL = /歯科|動物病院|獣医/" in lib
+    if (HERE / "app.js").exists():
+        assert "歯科|動物病院|獣医" in read("app.js"), "app.js and tools/lib.mjs disagree on the dentist/vet pattern"
+
+
 def test_licence_and_disclosure():
     for name in ("national.js", "national.html", *("tools/" + t for t in TOOLS)):
         assert not re.search(r"\bMIT\b", read(name)), name + " mentions MIT"
@@ -76,9 +92,9 @@ def test_node():
         for f in TOOLS:
             shutil.copy(HERE / "tools" / f, Path(d, "tools"))
         Path(d, "package.json").write_text('{"type": "module"}', encoding="utf-8")
-        for script in ("test_national_page.mjs", "tools/test_national_gaps.mjs"):
+        for script in NODE_TESTS:
             r = subprocess.run([node, script], cwd=d, capture_output=True,
-                               text=True, encoding="utf-8", errors="replace", timeout=120)
+                               text=True, encoding="utf-8", errors="replace", timeout=180)
             assert r.returncode == 0, script + "\n" + r.stdout + r.stderr
 
 
